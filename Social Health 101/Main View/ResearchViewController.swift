@@ -22,17 +22,20 @@ class ResearchViewController: UIViewController, ORKTaskViewControllerDelegate {
     
     func taskViewController(_ taskViewController: ORKTaskViewController, didFinishWith reason: ORKTaskViewControllerFinishReason, error: Error?) {
         
-        //Handle results with taskViewController.result
-        
-        //        switch reason {
-        //        case .Completed:
-        //            // Save onboarding result
-        //            // Dismiss task and onboarding controller
-        //
-        //        case .Discarded, .Failed, .Saved:
-        //            // Only dismiss task controller
-        //            // (back to onboarding controller)
-        
+//        switch reason {
+//        case .completed:
+//            let taskResult = taskViewController.result
+//            
+//            let jsonData = try! ORKESerializer.JSONDataForObject(taskResult)
+//            if let jsonString = NSString(data: jsonData, encoding: NSUTF8StringEncoding) {
+//                print(jsonString)
+//            }
+//            break
+//            
+//        case .failed, .discarded, .saved:
+//            break
+//            
+//        }
             taskViewController.dismiss(animated: true, completion: nil)
             
         
