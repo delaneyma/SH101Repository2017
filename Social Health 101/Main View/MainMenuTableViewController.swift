@@ -86,7 +86,7 @@ class MainMenuTableViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
 //        return MainTitleArray[section].count
-        if section == 0 { return 1}
+        if section == 0 { return 2}
         else{
             return MainTitleArray.count}
             }
@@ -94,10 +94,15 @@ class MainMenuTableViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        if indexPath.section == 0 {
+        if indexPath.section == 0 && indexPath.row == 0 {
             let cell = tableView.dequeueReusableCell(withIdentifier: "MainTitleCell", for: indexPath) as! MainTitleTableViewCell
             cell.MaintTitleLabel.text = "Learn More About This App"
             return cell}
+        if indexPath.section == 0 && indexPath.row == 1 {
+            let cell = tableView.dequeueReusableCell(withIdentifier: "MainCellP1", for: indexPath) as! MainCellP1TableViewCell
+            cell.MainCellP1Label.text = "Learn More About This App"
+            return cell}
+
 
         else {
             let cell = tableView.dequeueReusableCell(withIdentifier: "MainCell", for: indexPath) as! MainTableViewCell

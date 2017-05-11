@@ -1,20 +1,16 @@
 //
-//  AboutP4TableViewCell.swift
+//  MainCellP1TableViewCell.swift
 //  Social Health 101
 //
-//  Created by Marc Delaney on 5/10/17.
+//  Created by Marc Delaney on 5/11/17.
 //  Copyright © 2017 MDCoderforHealth. All rights reserved.
 //
 
 import UIKit
 
-class AboutP4TableViewCell: UITableViewCell {
+class MainCellP1TableViewCell: UITableViewCell {
 
-    @IBOutlet weak var AboutP4TitleLabel: UILabel!
-    @IBOutlet weak var AboutP4Image: UIImageView!
-    @IBOutlet weak var AboutP4Label: UILabel!
-   
-    
+    @IBOutlet weak var MainCellP1Label: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

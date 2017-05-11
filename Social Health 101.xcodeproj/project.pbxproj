@@ -98,6 +98,8 @@
 		498E70021EC3FD3400B6DA55 /* DetailView.png in Resources */ = {isa = PBXBuildFile; fileRef = 498E70011EC3FD3300B6DA55 /* DetailView.png */; };
 		498E70041EC403B500B6DA55 /* AboutP3TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498E70031EC403B500B6DA55 /* AboutP3TableViewCell.swift */; };
 		498E70061EC403CB00B6DA55 /* AboutP4TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498E70051EC403CB00B6DA55 /* AboutP4TableViewCell.swift */; };
+		498E70081EC4057000B6DA55 /* AboutP5TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498E70071EC4057000B6DA55 /* AboutP5TableViewCell.swift */; };
+		498E700A1EC4F11E00B6DA55 /* MainCellP1TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498E70091EC4F11E00B6DA55 /* MainCellP1TableViewCell.swift */; };
 		4996FF3C1EB607D700CB9FE5 /* LICCP1TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4996FF3B1EB607D700CB9FE5 /* LICCP1TableViewCell.swift */; };
 		4996FF3E1EB607EA00CB9FE5 /* LICCP2TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4996FF3D1EB607EA00CB9FE5 /* LICCP2TableViewCell.swift */; };
 		4996FF401EB6080100CB9FE5 /* LICCTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4996FF3F1EB6080100CB9FE5 /* LICCTableViewController.swift */; };
@@ -374,6 +376,8 @@
 		498E70011EC3FD3300B6DA55 /* DetailView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DetailView.png; path = Images/DetailView.png; sourceTree = "<group>"; };
 		498E70031EC403B500B6DA55 /* AboutP3TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AboutP3TableViewCell.swift; path = "Main View/AboutP3TableViewCell.swift"; sourceTree = "<group>"; };
 		498E70051EC403CB00B6DA55 /* AboutP4TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AboutP4TableViewCell.swift; path = "Main View/AboutP4TableViewCell.swift"; sourceTree = "<group>"; };
+		498E70071EC4057000B6DA55 /* AboutP5TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AboutP5TableViewCell.swift; path = "Main View/AboutP5TableViewCell.swift"; sourceTree = "<group>"; };
+		498E70091EC4F11E00B6DA55 /* MainCellP1TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainCellP1TableViewCell.swift; path = "Main View/MainCellP1TableViewCell.swift"; sourceTree = "<group>"; };
 		4996FF3B1EB607D700CB9FE5 /* LICCP1TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LICCP1TableViewCell.swift; path = "Detail Views/LICCP1TableViewCell.swift"; sourceTree = "<group>"; };
 		4996FF3D1EB607EA00CB9FE5 /* LICCP2TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LICCP2TableViewCell.swift; path = "Detail Views/LICCP2TableViewCell.swift"; sourceTree = "<group>"; };
 		4996FF3F1EB6080100CB9FE5 /* LICCTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LICCTableViewController.swift; path = "Detail Views/LICCTableViewController.swift"; sourceTree = "<group>"; };
@@ -561,6 +565,7 @@
 				491C60351EC0CC7F008623A9 /* AboutP2TableViewCell.swift */,
 				498E70031EC403B500B6DA55 /* AboutP3TableViewCell.swift */,
 				498E70051EC403CB00B6DA55 /* AboutP4TableViewCell.swift */,
+				498E70071EC4057000B6DA55 /* AboutP5TableViewCell.swift */,
 			);
 			name = "About Detail";
 			sourceTree = "<group>";
@@ -1074,6 +1079,7 @@
 		49DEB1651EABC380002E0ACA /* MainView SubViews */ = {
 			isa = PBXGroup;
 			children = (
+				498E70091EC4F11E00B6DA55 /* MainCellP1TableViewCell.swift */,
 				4980F0151EA54CFD0085F115 /* MainTableViewCell.swift */,
 				4958697D1EC0BC18000275F2 /* MainTitleTableViewCell.swift */,
 				492521FD1EA5584700071906 /* HeaderCellFile.swift */,
@@ -1556,8 +1562,10 @@
 				49BA861F1EB912B900AB6E3B /* EAPP3TableViewCell.swift in Sources */,
 				495B2A8C1EB2A676000A5C3F /* MHA1TableViewController.swift in Sources */,
 				49AABEB41EAFBCD80003A90E /* MICHCP2TableViewCell.swift in Sources */,
+				498E700A1EC4F11E00B6DA55 /* MainCellP1TableViewCell.swift in Sources */,
 				49DEB1621EABB5F8002E0ACA /* CPWTableViewCell.swift in Sources */,
 				49A155741EB8B398008CF0A1 /* FPTableViewController.swift in Sources */,
+				498E70081EC4057000B6DA55 /* AboutP5TableViewCell.swift in Sources */,
 				49A40B541EBB7F09000730B8 /* KFHProto3TableViewCell.swift in Sources */,
 				493C6F8A1EB7A728004EC991 /* SPCMP1TableViewCell.swift in Sources */,
 				49DEB1821EABC521002E0ACA /* UUTableViewCell.swift in Sources */,

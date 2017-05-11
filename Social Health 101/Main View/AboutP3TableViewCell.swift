@@ -10,6 +10,7 @@ import UIKit
 
 class AboutP3TableViewCell: UITableViewCell {
 
+    @IBOutlet weak var AboutP3Label: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

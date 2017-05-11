@@ -1,5 +1,5 @@
 //
-//  AboutP4TableViewCell.swift
+//  AboutP5TableViewCell.swift
 //  Social Health 101
 //
 //  Created by Marc Delaney on 5/10/17.
@@ -8,12 +8,10 @@
 
 import UIKit
 
-class AboutP4TableViewCell: UITableViewCell {
+class AboutP5TableViewCell: UITableViewCell {
 
-    @IBOutlet weak var AboutP4TitleLabel: UILabel!
-    @IBOutlet weak var AboutP4Image: UIImageView!
-    @IBOutlet weak var AboutP4Label: UILabel!
-   
+    @IBOutlet weak var AboutP5TitleLabel: UILabel!
+    @IBOutlet weak var AboutP5ContLabel: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()

@@ -54,15 +54,15 @@
                                     <outlet property="CPWPicCellLabel" destination="lyn-sP-Xds" id="Dg3-in-8g4"/>
                                 </connections>
                             </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CPWCell" textLabel="OUP-rV-Jcr" style="IBUITableViewCellStyleDefault" id="xbX-aV-JDa" customClass="CPWTableViewCell" customModule="Social_Health_101" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="CPWCell" textLabel="OUP-rV-Jcr" style="IBUITableViewCellStyleDefault" id="xbX-aV-JDa" customClass="CPWTableViewCell" customModule="Social_Health_101" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="291" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="xbX-aV-JDa" id="lmF-D7-y2M">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="342" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="OUP-rV-Jcr">
-                                            <rect key="frame" x="15" y="0.0" width="345" height="43.5"/>
+                                            <rect key="frame" x="15" y="0.0" width="325" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" red="0.1450980392" green="0.32156862749999998" blue="0.2156862745" alpha="1" colorSpace="calibratedRGB"/>
@@ -267,7 +267,7 @@
                                             </constraints>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Page Title" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jyr-cZ-n8z">
-                                            <rect key="frame" x="150.5" y="203" width="73" height="15.5"/>
+                                            <rect key="frame" x="151" y="203" width="73" height="15.5"/>
                                             <fontDescription key="fontDescription" name="HelveticaNeue-LightItalic" family="Helvetica Neue" pointSize="17"/>
                                             <color key="textColor" red="0.1450980392" green="0.32156862749999998" blue="0.2156862745" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
@@ -287,21 +287,41 @@
                                     <outlet property="MaintTitleLabel" destination="jyr-cZ-n8z" id="Pwt-yz-WN1"/>
                                 </connections>
                             </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MainCell" textLabel="vIH-3B-48Z" detailTextLabel="M7N-kB-pFd" style="IBUITableViewCellStyleSubtitle" id="vi4-OV-wCe" customClass="MainTableViewCell" customModule="Social_Health_101" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="MainCellP1" textLabel="vIH-3B-48Z" style="IBUITableViewCellStyleDefault" id="vi4-OV-wCe" customClass="MainCellP1TableViewCell" customModule="Social_Health_101" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="291" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="vi4-OV-wCe" id="GCc-QB-rEK">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="342" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="vIH-3B-48Z">
+                                            <rect key="frame" x="15" y="0.0" width="325" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" red="0.1450980392" green="0.32156862749999998" blue="0.2156862745" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="MainCellP1Label" destination="vIH-3B-48Z" id="EOP-QY-kbL"/>
+                                </connections>
+                            </tableViewCell>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="MainCell" textLabel="rXo-oI-V03" detailTextLabel="EPu-IE-O57" style="IBUITableViewCellStyleSubtitle" id="m7d-bG-nkh" customClass="MainTableViewCell" customModule="Social_Health_101" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="335" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="m7d-bG-nkh" id="opg-FV-ipo">
+                                    <rect key="frame" x="0.0" y="0.0" width="342" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="rXo-oI-V03">
                                             <rect key="frame" x="15" y="5" width="32" height="20"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                             <color key="textColor" red="0.1450980392" green="0.32156862749999998" blue="0.2156862745" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Subtitle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="M7N-kB-pFd">
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Subtitle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="EPu-IE-O57">
                                             <rect key="frame" x="15" y="25" width="44" height="14.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="12"/>
@@ -311,8 +331,8 @@
                                     </subviews>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <outlet property="MainSubtitles" destination="M7N-kB-pFd" id="Szt-Bz-NrN"/>
-                                    <outlet property="MainTitles" destination="vIH-3B-48Z" id="oQ0-4t-H9c"/>
+                                    <outlet property="MainSubtitles" destination="EPu-IE-O57" id="qxD-2P-2fS"/>
+                                    <outlet property="MainTitles" destination="rXo-oI-V03" id="Rwe-pD-Rfc"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -399,15 +419,15 @@
                                     <outlet property="HFIPicLabel" destination="pkC-SG-bXr" id="Daz-oz-WvA"/>
                                 </connections>
                             </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="HFICell" textLabel="pyR-ba-7qi" style="IBUITableViewCellStyleDefault" id="3qV-wR-YcC" customClass="HFITableViewCell" customModule="Social_Health_101" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="HFICell" textLabel="pyR-ba-7qi" style="IBUITableViewCellStyleDefault" id="3qV-wR-YcC" customClass="HFITableViewCell" customModule="Social_Health_101" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="291" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="3qV-wR-YcC" id="5Mv-oc-WWN">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="342" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="pyR-ba-7qi">
-                                            <rect key="frame" x="15" y="0.0" width="345" height="43.5"/>
+                                            <rect key="frame" x="15" y="0.0" width="325" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" red="0.1450980392" green="0.32156862749999998" blue="0.2156862745" alpha="1" colorSpace="calibratedRGB"/>
@@ -477,15 +497,15 @@
                                     <outlet property="MHAPicLabel" destination="qsz-th-Q1E" id="bWt-A7-4Uf"/>
                                 </connections>
                             </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MHAP1" textLabel="qky-2A-KhD" style="IBUITableViewCellStyleDefault" id="MUO-Wu-dm0" customClass="MHATableViewCell" customModule="Social_Health_101" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="MHAP1" textLabel="qky-2A-KhD" style="IBUITableViewCellStyleDefault" id="MUO-Wu-dm0" customClass="MHATableViewCell" customModule="Social_Health_101" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="291" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="MUO-Wu-dm0" id="XRy-Nr-gAm">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="342" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="MHA Titles" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="qky-2A-KhD">
-                                            <rect key="frame" x="15" y="0.0" width="345" height="43.5"/>
+                                            <rect key="frame" x="15" y="0.0" width="325" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" red="0.1450980392" green="0.32156862749999998" blue="0.2156862745" alpha="1" colorSpace="calibratedRGB"/>
@@ -497,15 +517,15 @@
                                     <outlet property="MHATitleLabel" destination="qky-2A-KhD" id="jxO-eZ-O82"/>
                                 </connections>
                             </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MHAP2" textLabel="ywS-Pf-ohM" style="IBUITableViewCellStyleDefault" id="1wO-TQ-RRH" customClass="MHAP2TableViewCell" customModule="Social_Health_101" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="MHAP2" textLabel="ywS-Pf-ohM" style="IBUITableViewCellStyleDefault" id="1wO-TQ-RRH" customClass="MHAP2TableViewCell" customModule="Social_Health_101" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="335" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="1wO-TQ-RRH" id="Et2-18-0Ei">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="342" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="MHA Titles" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ywS-Pf-ohM">
-                                            <rect key="frame" x="15" y="0.0" width="345" height="43.5"/>
+                                            <rect key="frame" x="15" y="0.0" width="325" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" red="0.1450980392" green="0.32156862749999998" blue="0.2156862745" alpha="1" colorSpace="calibratedRGB"/>
@@ -517,15 +537,15 @@
                                     <outlet property="MHAP2TitleLabel" destination="ywS-Pf-ohM" id="ahy-2l-gBL"/>
                                 </connections>
                             </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MHAP3" textLabel="hta-a1-bKV" style="IBUITableViewCellStyleDefault" id="rpV-yX-xWT" customClass="MHAP3TableViewCell" customModule="Social_Health_101" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="MHAP3" textLabel="hta-a1-bKV" style="IBUITableViewCellStyleDefault" id="rpV-yX-xWT" customClass="MHAP3TableViewCell" customModule="Social_Health_101" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="379" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="rpV-yX-xWT" id="UPD-yI-zKR">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="342" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="MHA Titles" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="hta-a1-bKV">
-                                            <rect key="frame" x="15" y="0.0" width="345" height="43.5"/>
+                                            <rect key="frame" x="15" y="0.0" width="325" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" red="0.1450980392" green="0.32156862749999998" blue="0.2156862745" alpha="1" colorSpace="calibratedRGB"/>
@@ -537,15 +557,15 @@
                                     <outlet property="MHAP3TitleLabel" destination="hta-a1-bKV" id="kiM-E9-VpT"/>
                                 </connections>
                             </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MHAP4" textLabel="kai-PY-4dc" style="IBUITableViewCellStyleDefault" id="87e-h6-XvB" customClass="MHAP4TableViewCell" customModule="Social_Health_101" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="MHAP4" textLabel="kai-PY-4dc" style="IBUITableViewCellStyleDefault" id="87e-h6-XvB" customClass="MHAP4TableViewCell" customModule="Social_Health_101" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="423" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="87e-h6-XvB" id="ToW-Z4-bD6">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="342" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="MHA Titles" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="kai-PY-4dc">
-                                            <rect key="frame" x="15" y="0.0" width="345" height="43.5"/>
+                                            <rect key="frame" x="15" y="0.0" width="325" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" red="0.1450980392" green="0.32156862749999998" blue="0.2156862745" alpha="1" colorSpace="calibratedRGB"/>
@@ -628,15 +648,15 @@
                                     <outlet property="LAPicLabel" destination="Ukx-EJ-nPs" id="ggn-X5-RjJ"/>
                                 </connections>
                             </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="LACell" textLabel="vLV-wW-O6V" style="IBUITableViewCellStyleDefault" id="l8I-wk-QUt" customClass="LATableViewCell" customModule="Social_Health_101" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="LACell" textLabel="vLV-wW-O6V" style="IBUITableViewCellStyleDefault" id="l8I-wk-QUt" customClass="LATableViewCell" customModule="Social_Health_101" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="291" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="l8I-wk-QUt" id="nxT-au-9pD">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="342" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="vLV-wW-O6V">
-                                            <rect key="frame" x="15" y="0.0" width="345" height="43.5"/>
+                                            <rect key="frame" x="15" y="0.0" width="325" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" red="0.1450980392" green="0.32156862749999998" blue="0.2156862745" alpha="1" colorSpace="calibratedRGB"/>
@@ -707,15 +727,15 @@
                                     <outlet property="HHEAPicLabel" destination="S7b-yS-PUr" id="ask-Wc-2SQ"/>
                                 </connections>
                             </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="HHEACell" textLabel="TTX-Xw-XPs" style="IBUITableViewCellStyleDefault" id="9Pq-z5-Aql" customClass="HHEATableViewCell" customModule="Social_Health_101" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="HHEACell" textLabel="TTX-Xw-XPs" style="IBUITableViewCellStyleDefault" id="9Pq-z5-Aql" customClass="HHEATableViewCell" customModule="Social_Health_101" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="291" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="9Pq-z5-Aql" id="bLv-eR-bTL">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="342" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="TTX-Xw-XPs">
-                                            <rect key="frame" x="15" y="0.0" width="345" height="43.5"/>
+                                            <rect key="frame" x="15" y="0.0" width="325" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" red="0.1450980392" green="0.32156862749999998" blue="0.2156862745" alpha="1" colorSpace="calibratedRGB"/>
@@ -790,15 +810,15 @@
                                     <outlet property="NIRUPicLabel" destination="tcn-AM-HbQ" id="yOc-9w-FMk"/>
                                 </connections>
                             </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="NIRUCell" textLabel="W3L-Ab-NsO" style="IBUITableViewCellStyleDefault" id="FeT-Ie-z5n" customClass="NIRUTableViewCell" customModule="Social_Health_101" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="NIRUCell" textLabel="W3L-Ab-NsO" style="IBUITableViewCellStyleDefault" id="FeT-Ie-z5n" customClass="NIRUTableViewCell" customModule="Social_Health_101" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="291" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="FeT-Ie-z5n" id="HIy-Kr-ike">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="342" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="W3L-Ab-NsO">
-                                            <rect key="frame" x="15" y="0.0" width="345" height="43.5"/>
+                                            <rect key="frame" x="15" y="0.0" width="325" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" red="0.1450980392" green="0.32156862749999998" blue="0.2156862745" alpha="1" colorSpace="calibratedRGB"/>
@@ -870,15 +890,15 @@
                                     <outlet property="UUPicLabel" destination="gcd-Gm-fIP" id="wZF-ex-z3t"/>
                                 </connections>
                             </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="UUCell" textLabel="UqO-6b-sig" style="IBUITableViewCellStyleDefault" id="oyz-C3-jGo" customClass="UUTableViewCell" customModule="Social_Health_101" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="UUCell" textLabel="UqO-6b-sig" style="IBUITableViewCellStyleDefault" id="oyz-C3-jGo" customClass="UUTableViewCell" customModule="Social_Health_101" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="291" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="oyz-C3-jGo" id="jFa-Qy-dAk">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="342" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="UqO-6b-sig">
-                                            <rect key="frame" x="15" y="0.0" width="345" height="43.5"/>
+                                            <rect key="frame" x="15" y="0.0" width="325" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" red="0.1450980392" green="0.32156862749999998" blue="0.2156862745" alpha="1" colorSpace="calibratedRGB"/>
@@ -4754,7 +4774,7 @@ The Suffolk County MICHC project has chosen to focus on 6 high risk zip codes lo
                                 <rect key="frame" x="0.0" y="56" width="375" height="192"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="dTt-Uf-Vac" id="nRT-En-GDJ">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="192"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="191"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Proto1 Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UoO-Ft-87v">
@@ -6399,20 +6419,20 @@ The Suffolk County MICHC project has chosen to focus on 6 high risk zip codes lo
             </objects>
             <point key="canvasLocation" x="4817" y="2369"/>
         </scene>
-        <!--MHA SubMenu-->
+        <!--About Me Section-->
         <scene sceneID="5a9-lT-YeU">
             <objects>
-                <tableViewController title="MHA SubMenu" id="2YB-66-ujy" customClass="MHA1TableViewController" customModule="Social_Health_101" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController title="About Me Section" id="2YB-66-ujy" customClass="AboutTableViewController" customModule="Social_Health_101" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" id="APJ-o7-7sI">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.72941176470000002" green="0.34509803919999998" blue="0.35686274509999999" alpha="1" colorSpace="calibratedRGB"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="AboutP1" rowHeight="235" id="TuU-sk-bCw" customClass="AboutP1TableViewCell" customModule="Social_Health_101" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="55.5" width="375" height="235"/>
+                                <rect key="frame" x="0.0" y="56" width="375" height="235"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="TuU-sk-bCw" id="cbx-ha-Azx">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="234"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="235"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="modsize500helplogosansscript.png" translatesAutoresizingMaskIntoConstraints="NO" id="0kv-tW-ppx">
@@ -6422,7 +6442,7 @@ The Suffolk County MICHC project has chosen to focus on 6 high risk zip codes lo
                                             </constraints>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MHA Title" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tBx-TX-flx">
-                                            <rect key="frame" x="151" y="198.5" width="72" height="20"/>
+                                            <rect key="frame" x="151" y="206" width="72" height="20"/>
                                             <fontDescription key="fontDescription" name="HelveticaNeue-LightItalic" family="Helvetica Neue" pointSize="17"/>
                                             <color key="textColor" red="0.1450980392" green="0.32156862749999998" blue="0.2156862745" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
@@ -6430,8 +6450,8 @@ The Suffolk County MICHC project has chosen to focus on 6 high risk zip codes lo
                                     </subviews>
                                     <constraints>
                                         <constraint firstItem="tBx-TX-flx" firstAttribute="centerX" secondItem="cbx-ha-Azx" secondAttribute="centerX" id="CON-Xc-nlr"/>
-                                        <constraint firstItem="tBx-TX-flx" firstAttribute="top" secondItem="0kv-tW-ppx" secondAttribute="bottom" constant="3.5" id="QJo-eR-Mqu"/>
-                                        <constraint firstAttribute="bottomMargin" secondItem="tBx-TX-flx" secondAttribute="bottom" constant="8" id="Zwq-mI-Z3l"/>
+                                        <constraint firstItem="tBx-TX-flx" firstAttribute="top" secondItem="0kv-tW-ppx" secondAttribute="bottom" constant="11" id="QJo-eR-Mqu"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="tBx-TX-flx" secondAttribute="bottom" id="Zwq-mI-Z3l"/>
                                         <constraint firstAttribute="trailing" secondItem="0kv-tW-ppx" secondAttribute="trailing" id="iik-uy-4H9"/>
                                         <constraint firstItem="0kv-tW-ppx" firstAttribute="top" secondItem="cbx-ha-Azx" secondAttribute="top" id="tvC-Wt-PAb"/>
                                         <constraint firstItem="0kv-tW-ppx" firstAttribute="leading" secondItem="cbx-ha-Azx" secondAttribute="leading" id="z4r-sg-klK"/>
@@ -6443,10 +6463,10 @@ The Suffolk County MICHC project has chosen to focus on 6 high risk zip codes lo
                                 </connections>
                             </tableViewCell>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="AboutP2" rowHeight="142" id="foE-YR-OfZ" customClass="AboutP2TableViewCell" customModule="Social_Health_101" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="290.5" width="375" height="142"/>
+                                <rect key="frame" x="0.0" y="291" width="375" height="142"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="foE-YR-OfZ" id="PdM-wf-Rt5">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="141"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="142"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Proto1 Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9sc-hw-fxq">
@@ -6477,12 +6497,16 @@ The Suffolk County MICHC project has chosen to focus on 6 high risk zip codes lo
                                         <constraint firstItem="9sc-hw-fxq" firstAttribute="top" secondItem="PdM-wf-Rt5" secondAttribute="topMargin" id="lT9-Qs-d2B"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="AboutP2Label1" destination="9sc-hw-fxq" id="Wbl-6Y-zcz"/>
+                                    <outlet property="AboutP2Label2" destination="ZL0-2l-7vy" id="eZI-Xk-fiM"/>
+                                </connections>
                             </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="AHCP2" rowHeight="43" id="Ibq-N4-Rml" customClass="AHCP2TableViewCell" customModule="Social_Health_101" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="432.5" width="375" height="43"/>
+                            <tableViewCell clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="AboutP3" rowHeight="43" id="Ibq-N4-Rml" customClass="AboutP3TableViewCell" customModule="Social_Health_101" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="433" width="375" height="43"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Ibq-N4-Rml" id="BmI-wR-Kix">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="42"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Proto1 Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f8T-nw-JeT">
@@ -6501,110 +6525,73 @@ The Suffolk County MICHC project has chosen to focus on 6 high risk zip codes lo
                                 </tableViewCellContentView>
                                 <inset key="separatorInset" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 <connections>
-                                    <outlet property="AHCP2TitleLabel" destination="f8T-nw-JeT" id="M37-63-IK9"/>
+                                    <outlet property="AboutP3Label" destination="f8T-nw-JeT" id="xki-Jj-IBf"/>
                                 </connections>
                             </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="AboutP2" rowHeight="237" id="0jq-Cb-WWq" customClass="AboutP2TableViewCell" customModule="Social_Health_101" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="475.5" width="375" height="237"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="AboutP4" rowHeight="295" id="0jq-Cb-WWq" customClass="AboutP4TableViewCell" customModule="Social_Health_101" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="476" width="375" height="295"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="0jq-Cb-WWq" id="ysd-5D-7VZ">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="236.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="295"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MainView.png" translatesAutoresizingMaskIntoConstraints="NO" id="ZHB-9d-DSb">
-                                            <rect key="frame" x="237.5" y="8" width="119.5" height="212.5"/>
+                                            <rect key="frame" x="211" y="16" width="146" height="261"/>
                                             <constraints>
-                                                <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="212.5" id="Eqb-Ig-205"/>
-                                                <constraint firstAttribute="width" secondItem="ZHB-9d-DSb" secondAttribute="height" multiplier="121:215" id="vat-ll-odC"/>
+                                                <constraint firstAttribute="height" constant="261" id="1cN-a4-ddB"/>
+                                                <constraint firstAttribute="width" constant="146" id="BNj-EU-7CU"/>
+                                                <constraint firstAttribute="width" secondItem="ZHB-9d-DSb" secondAttribute="height" multiplier="146:261" id="CKh-sl-UfE"/>
                                             </constraints>
                                         </imageView>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TdM-SP-7Sg">
-                                            <rect key="frame" x="8" y="16" width="220" height="205"/>
-                                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
-                                            <nil key="textColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                    </subviews>
-                                    <constraints>
-                                        <constraint firstItem="ZHB-9d-DSb" firstAttribute="leading" secondItem="TdM-SP-7Sg" secondAttribute="trailing" constant="9.5" id="2l0-ou-dUA"/>
-                                        <constraint firstItem="TdM-SP-7Sg" firstAttribute="leading" secondItem="ysd-5D-7VZ" secondAttribute="leadingMargin" id="Ori-PA-g1F"/>
-                                        <constraint firstAttribute="trailingMargin" secondItem="ZHB-9d-DSb" secondAttribute="trailing" constant="10" id="TZ9-cR-aUk"/>
-                                        <constraint firstItem="TdM-SP-7Sg" firstAttribute="top" secondItem="ysd-5D-7VZ" secondAttribute="topMargin" constant="8" id="dAJ-3c-4g3"/>
-                                        <constraint firstAttribute="bottomMargin" secondItem="TdM-SP-7Sg" secondAttribute="bottom" constant="8" id="eFv-AS-I1w"/>
-                                        <constraint firstAttribute="bottomMargin" secondItem="ZHB-9d-DSb" secondAttribute="bottom" constant="8" id="kCc-0Q-sjU"/>
-                                        <constraint firstItem="ZHB-9d-DSb" firstAttribute="top" secondItem="ysd-5D-7VZ" secondAttribute="topMargin" id="xGc-MP-jmH"/>
-                                    </constraints>
-                                </tableViewCellContentView>
-                            </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="AboutP2" rowHeight="237" id="mfp-SN-pNx" customClass="AboutP2TableViewCell" customModule="Social_Health_101" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="712.5" width="375" height="237"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="mfp-SN-pNx" id="NYb-fc-NG2">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="236"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                    <subviews>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MainView.png" translatesAutoresizingMaskIntoConstraints="NO" id="YVq-Jv-1JP">
-                                            <rect key="frame" x="237.5" y="8" width="119.5" height="212.5"/>
+                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="vbL-NC-hUQ">
+                                            <rect key="frame" x="8" y="16" width="178" height="270.5"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1. Pick your program" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6zP-X5-8Wz">
+                                                    <rect key="frame" x="0.0" y="0.0" width="178" height="19.5"/>
+                                                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="16"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TdM-SP-7Sg">
+                                                    <rect key="frame" x="0.0" y="19.5" width="178" height="251"/>
+                                                    <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="15"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
                                             <constraints>
-                                                <constraint firstAttribute="width" secondItem="YVq-Jv-1JP" secondAttribute="height" multiplier="121:215" id="Kxd-WK-TT7"/>
-                                                <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="212.5" id="jMR-mz-HJw"/>
+                                                <constraint firstAttribute="trailing" secondItem="6zP-X5-8Wz" secondAttribute="trailing" id="0pp-cZ-Ryg"/>
+                                                <constraint firstItem="6zP-X5-8Wz" firstAttribute="leading" secondItem="vbL-NC-hUQ" secondAttribute="leading" id="2Xz-SR-ffh"/>
+                                                <constraint firstAttribute="bottom" secondItem="TdM-SP-7Sg" secondAttribute="bottom" id="BBc-W5-vF4"/>
+                                                <constraint firstAttribute="trailing" secondItem="TdM-SP-7Sg" secondAttribute="trailing" id="DDX-9o-Vt0"/>
+                                                <constraint firstItem="TdM-SP-7Sg" firstAttribute="leading" secondItem="vbL-NC-hUQ" secondAttribute="leading" id="JRV-ae-ZRs"/>
+                                                <constraint firstItem="6zP-X5-8Wz" firstAttribute="top" secondItem="vbL-NC-hUQ" secondAttribute="top" id="NJw-hf-ZwL"/>
+                                                <constraint firstItem="TdM-SP-7Sg" firstAttribute="top" secondItem="6zP-X5-8Wz" secondAttribute="bottom" id="jEM-u0-LgS"/>
+                                                <constraint firstItem="TdM-SP-7Sg" firstAttribute="top" secondItem="6zP-X5-8Wz" secondAttribute="bottom" id="x6Y-kt-Bce"/>
                                             </constraints>
-                                        </imageView>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dt3-ve-YTO">
-                                            <rect key="frame" x="8" y="16" width="220" height="205"/>
-                                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
-                                            <nil key="textColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
+                                        </stackView>
                                     </subviews>
                                     <constraints>
-                                        <constraint firstItem="dt3-ve-YTO" firstAttribute="top" secondItem="NYb-fc-NG2" secondAttribute="topMargin" constant="8" id="2OO-jB-B05"/>
-                                        <constraint firstItem="YVq-Jv-1JP" firstAttribute="leading" secondItem="dt3-ve-YTO" secondAttribute="trailing" constant="9.5" id="7AG-0J-J0b"/>
-                                        <constraint firstAttribute="bottomMargin" secondItem="YVq-Jv-1JP" secondAttribute="bottom" constant="8" id="9xF-Lc-T5C"/>
-                                        <constraint firstItem="YVq-Jv-1JP" firstAttribute="top" secondItem="NYb-fc-NG2" secondAttribute="topMargin" id="Pza-Ez-M0u"/>
-                                        <constraint firstItem="dt3-ve-YTO" firstAttribute="leading" secondItem="NYb-fc-NG2" secondAttribute="leadingMargin" id="QNA-vQ-7sd"/>
-                                        <constraint firstAttribute="trailingMargin" secondItem="YVq-Jv-1JP" secondAttribute="trailing" constant="10" id="ZC5-zN-2OB"/>
-                                        <constraint firstAttribute="bottomMargin" secondItem="dt3-ve-YTO" secondAttribute="bottom" constant="8" id="mGJ-cp-XPp"/>
+                                        <constraint firstItem="ZHB-9d-DSb" firstAttribute="top" secondItem="ysd-5D-7VZ" secondAttribute="topMargin" constant="8" id="LC4-x7-tgL"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="vbL-NC-hUQ" secondAttribute="bottom" id="W8M-53-YDb"/>
+                                        <constraint firstItem="vbL-NC-hUQ" firstAttribute="leading" secondItem="ysd-5D-7VZ" secondAttribute="leadingMargin" id="cGL-H5-gII"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="ZHB-9d-DSb" secondAttribute="bottom" constant="10" id="ivP-2N-lju"/>
+                                        <constraint firstItem="ZHB-9d-DSb" firstAttribute="leading" secondItem="vbL-NC-hUQ" secondAttribute="trailing" constant="25" id="jbV-ui-EyI"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="ZHB-9d-DSb" secondAttribute="trailing" constant="10" id="sYR-9F-37p"/>
+                                        <constraint firstItem="vbL-NC-hUQ" firstAttribute="top" secondItem="ysd-5D-7VZ" secondAttribute="topMargin" constant="8" id="wZS-UF-vzE"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="AboutP4Image" destination="ZHB-9d-DSb" id="h9d-3S-fSH"/>
+                                    <outlet property="AboutP4Label" destination="TdM-SP-7Sg" id="yEh-o8-vfK"/>
+                                    <outlet property="AboutP4TitleLabel" destination="6zP-X5-8Wz" id="uRY-YC-DKS"/>
+                                </connections>
                             </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="AboutP2" rowHeight="237" id="EOx-A1-GcH" customClass="AboutP2TableViewCell" customModule="Social_Health_101" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="949.5" width="375" height="237"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="EOx-A1-GcH" id="xKL-aC-g48">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="236"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                    <subviews>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MainView.png" translatesAutoresizingMaskIntoConstraints="NO" id="oFH-3a-FSK">
-                                            <rect key="frame" x="237.5" y="8" width="119.5" height="212.5"/>
-                                            <constraints>
-                                                <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="212.5" id="GTH-OJ-wb4"/>
-                                                <constraint firstAttribute="width" secondItem="oFH-3a-FSK" secondAttribute="height" multiplier="121:215" id="aCT-vN-HT0"/>
-                                            </constraints>
-                                        </imageView>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NW0-6m-8da">
-                                            <rect key="frame" x="8" y="16" width="220" height="205"/>
-                                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
-                                            <nil key="textColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                    </subviews>
-                                    <constraints>
-                                        <constraint firstItem="oFH-3a-FSK" firstAttribute="leading" secondItem="NW0-6m-8da" secondAttribute="trailing" constant="9.5" id="9Gj-Yo-zoj"/>
-                                        <constraint firstItem="NW0-6m-8da" firstAttribute="top" secondItem="xKL-aC-g48" secondAttribute="topMargin" constant="8" id="Mfb-zt-cMy"/>
-                                        <constraint firstAttribute="bottomMargin" secondItem="NW0-6m-8da" secondAttribute="bottom" constant="8" id="PEc-eu-wvh"/>
-                                        <constraint firstItem="oFH-3a-FSK" firstAttribute="top" secondItem="xKL-aC-g48" secondAttribute="topMargin" id="Pap-xU-5Wi"/>
-                                        <constraint firstAttribute="bottomMargin" secondItem="oFH-3a-FSK" secondAttribute="bottom" constant="8" id="Vlf-b6-58D"/>
-                                        <constraint firstAttribute="trailingMargin" secondItem="oFH-3a-FSK" secondAttribute="trailing" constant="10" id="ZTo-M8-vFx"/>
-                                        <constraint firstItem="NW0-6m-8da" firstAttribute="leading" secondItem="xKL-aC-g48" secondAttribute="leadingMargin" id="vCC-Gl-FYx"/>
-                                    </constraints>
-                                </tableViewCellContentView>
-                            </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ONAP2" rowHeight="91" id="eGw-eO-jl5" customClass="ONAP2TableViewCell" customModule="Social_Health_101" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="1186.5" width="375" height="91"/>
+                            <tableViewCell clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="AboutP5" rowHeight="91" id="eGw-eO-jl5" customClass="AboutP5TableViewCell" customModule="Social_Health_101" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="771" width="375" height="91"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="eGw-eO-jl5" id="STd-Qf-3iF">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="90"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="91"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Proto1 Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BeC-LA-tjB">
@@ -6613,9 +6600,8 @@ The Suffolk County MICHC project has chosen to focus on 6 high risk zip codes lo
                                             <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9cW-M5-8Rl">
-                                            <rect key="frame" x="8" y="26" width="359" height="61"/>
-                                            <string key="text">Keeping Families Healthy is a free service created with the primary care pediatricians at Stony Brook Children’s which provides home visits by a community health worker centered primarily around three areas of child health and wellness: </string>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Keeping Families Healthy is a free service created with the primary care pediatricians at Stony Brook " lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9cW-M5-8Rl">
+                                            <rect key="frame" x="8" y="28" width="359" height="50.5"/>
                                             <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
@@ -6623,17 +6609,17 @@ The Suffolk County MICHC project has chosen to focus on 6 high risk zip codes lo
                                     </subviews>
                                     <constraints>
                                         <constraint firstItem="BeC-LA-tjB" firstAttribute="top" secondItem="STd-Qf-3iF" secondAttribute="topMargin" id="DeZ-9y-JJJ"/>
-                                        <constraint firstItem="9cW-M5-8Rl" firstAttribute="top" secondItem="BeC-LA-tjB" secondAttribute="bottom" constant="2" id="N1P-f2-n6z"/>
-                                        <constraint firstItem="9cW-M5-8Rl" firstAttribute="trailing" secondItem="STd-Qf-3iF" secondAttribute="trailingMargin" id="NKZ-uj-Lqn"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="9cW-M5-8Rl" secondAttribute="bottom" constant="4" id="Pmg-oa-s4O"/>
                                         <constraint firstItem="BeC-LA-tjB" firstAttribute="leading" secondItem="STd-Qf-3iF" secondAttribute="leadingMargin" id="VNC-7w-SU7"/>
-                                        <constraint firstItem="9cW-M5-8Rl" firstAttribute="leading" secondItem="STd-Qf-3iF" secondAttribute="leadingMargin" id="khF-Rx-lSi"/>
-                                        <constraint firstAttribute="bottom" secondItem="9cW-M5-8Rl" secondAttribute="bottom" constant="3.5" id="txt-lZ-zfc"/>
+                                        <constraint firstItem="9cW-M5-8Rl" firstAttribute="trailing" secondItem="STd-Qf-3iF" secondAttribute="trailingMargin" id="ndr-ko-ZD5"/>
+                                        <constraint firstItem="9cW-M5-8Rl" firstAttribute="top" secondItem="BeC-LA-tjB" secondAttribute="bottom" constant="4" id="oug-Tk-Sls"/>
                                         <constraint firstAttribute="trailingMargin" secondItem="BeC-LA-tjB" secondAttribute="trailing" id="ww6-T6-Sv9"/>
+                                        <constraint firstItem="9cW-M5-8Rl" firstAttribute="leading" secondItem="STd-Qf-3iF" secondAttribute="leadingMargin" id="xAi-Cn-O6t"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <outlet property="ONAP2ContLabel" destination="9cW-M5-8Rl" id="Mdj-c9-fnW"/>
-                                    <outlet property="ONAP2TitleLabel" destination="BeC-LA-tjB" id="FfW-ts-4bV"/>
+                                    <outlet property="AboutP5ContLabel" destination="9cW-M5-8Rl" id="BBq-XN-lMf"/>
+                                    <outlet property="AboutP5TitleLabel" destination="BeC-LA-tjB" id="hXU-aG-Ysj"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>

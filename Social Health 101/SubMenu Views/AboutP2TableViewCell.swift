@@ -10,7 +10,9 @@ import UIKit
 
 class AboutP2TableViewCell: UITableViewCell {
 
+    @IBOutlet weak var AboutP2Label1: UILabel!
     
+    @IBOutlet weak var AboutP2Label2: UILabel!
     
     
     
