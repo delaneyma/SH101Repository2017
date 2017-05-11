@@ -41,9 +41,10 @@ class MainMenuTableViewController: UITableViewController {
             
             // add the actions (buttons) - IF you click "Survey -- then do these:
             alert.addAction(UIAlertAction(title: "Survey", style: UIAlertActionStyle.default, handler: { action in
-                
+                if let url = NSURL(string: "https://www.surveymonkey.com/r/VVDV997") {
+                    UIApplication.shared.open(url as URL, options: [:])}
                 // Click "Survey" tp go to the Research VC:
-                    self.performSegue(withIdentifier: "ResearchSegue", sender: self);
+//                    self.performSegue(withIdentifier: "ResearchSegue", sender: self);
                     }))
             
             // OR let them click "cancel" and get rid of the alert.
