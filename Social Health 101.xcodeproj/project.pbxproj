@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4911CCBB1EC1F18300F8CA1B /* ResearchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4911CCB81EC1F13100F8CA1B /* ResearchKit.framework */; };
-		4911CCBC1EC1F18300F8CA1B /* ResearchKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4911CCB81EC1F13100F8CA1B /* ResearchKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4911CCC01EC1F2AB00F8CA1B /* ResearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4911CCBF1EC1F2AB00F8CA1B /* ResearchViewController.swift */; };
 		4911CCCB1EC1F4CE00F8CA1B /* ConsentDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4911CCCA1EC1F4CE00F8CA1B /* ConsentDocument.swift */; };
 		4911CCCD1EC1F5AA00F8CA1B /* ConsentTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4911CCCC1EC1F5AA00F8CA1B /* ConsentTask.swift */; };
@@ -247,30 +245,6 @@
 		49FC78AE1EBA4EA300815D1C /* DHHP3TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FC78AD1EBA4EA300815D1C /* DHHP3TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		4911CCB71EC1F13100F8CA1B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4911CCB11EC1F12F00F8CA1B /* ResearchKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = B183A5951A8535D100C76870;
-			remoteInfo = ResearchKit;
-		};
-		4911CCB91EC1F13100F8CA1B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4911CCB11EC1F12F00F8CA1B /* ResearchKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 86CC8E9A1AC09332001CCD89;
-			remoteInfo = ResearchKitTests;
-		};
-		4911CCBD1EC1F18300F8CA1B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4911CCB11EC1F12F00F8CA1B /* ResearchKit.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = B183A4731A8535D100C76870;
-			remoteInfo = ResearchKit;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		491C60651EC0DAE8008623A9 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -278,7 +252,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				4911CCBC1EC1F18300F8CA1B /* ResearchKit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,7 +259,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		4911CCB11EC1F12F00F8CA1B /* ResearchKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ResearchKit.xcodeproj; path = "Social Health 101/ResearchKit-master/ResearchKit.xcodeproj"; sourceTree = "<group>"; };
 		4911CCBF1EC1F2AB00F8CA1B /* ResearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResearchViewController.swift; path = "Social Health 101/Main View/ResearchViewController.swift"; sourceTree = "<group>"; };
 		4911CCCA1EC1F4CE00F8CA1B /* ConsentDocument.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConsentDocument.swift; path = "Social Health 101/Main View/ResearchFiles/ConsentDocument.swift"; sourceTree = "<group>"; };
 		4911CCCC1EC1F5AA00F8CA1B /* ConsentTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConsentTask.swift; path = "Social Health 101/Main View/ResearchFiles/ConsentTask.swift"; sourceTree = "<group>"; };
@@ -532,7 +504,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4911CCBB1EC1F18300F8CA1B /* ResearchKit.framework in Frameworks */,
 				495B2A6F1EB1621C000A5C3F /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -540,15 +511,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4911CCB21EC1F12F00F8CA1B /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				4911CCB81EC1F13100F8CA1B /* ResearchKit.framework */,
-				4911CCBA1EC1F13100F8CA1B /* ResearchKitTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		4911CCD01EC1F9A300F8CA1B /* Research Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -761,7 +723,6 @@
 		4980EFF51EA54AE20085F115 = {
 			isa = PBXGroup;
 			children = (
-				4911CCB11EC1F12F00F8CA1B /* ResearchKit.xcodeproj */,
 				4980F0001EA54AE20085F115 /* Social Health 101 */,
 				4980EFFF1EA54AE20085F115 /* Products */,
 				4980F00D1EA54AE20085F115 /* Info.plist */,
@@ -1293,7 +1254,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				4911CCBE1EC1F18300F8CA1B /* PBXTargetDependency */,
 			);
 			name = "Social Health 101";
 			productName = "Social Health 101";
@@ -1333,35 +1293,12 @@
 			mainGroup = 4980EFF51EA54AE20085F115;
 			productRefGroup = 4980EFFF1EA54AE20085F115 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 4911CCB21EC1F12F00F8CA1B /* Products */;
-					ProjectRef = 4911CCB11EC1F12F00F8CA1B /* ResearchKit.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				4980EFFD1EA54AE20085F115 /* Social Health 101 */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		4911CCB81EC1F13100F8CA1B /* ResearchKit.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = ResearchKit.framework;
-			remoteRef = 4911CCB71EC1F13100F8CA1B /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		4911CCBA1EC1F13100F8CA1B /* ResearchKitTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = ResearchKitTests.xctest;
-			remoteRef = 4911CCB91EC1F13100F8CA1B /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		4980EFFC1EA54AE20085F115 /* Resources */ = {
@@ -1618,14 +1555,6 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		4911CCBE1EC1F18300F8CA1B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ResearchKit;
-			targetProxy = 4911CCBD1EC1F18300F8CA1B /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
 		4980F0051EA54AE20085F115 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -1749,7 +1678,7 @@
 				DEVELOPMENT_TEAM = 5LW829KJ73;
 				INFOPLIST_FILE = "Social Health 101/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.codeerforhealth.Social-Health-101";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SocialJusticeInMedicine.SocialHealth101App;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -1763,7 +1692,7 @@
 				DEVELOPMENT_TEAM = 5LW829KJ73;
 				INFOPLIST_FILE = "Social Health 101/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.codeerforhealth.Social-Health-101";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SocialJusticeInMedicine.SocialHealth101App;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
