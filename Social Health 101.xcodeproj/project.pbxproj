@@ -1678,7 +1678,7 @@
 				DEVELOPMENT_TEAM = 5LW829KJ73;
 				INFOPLIST_FILE = "Social Health 101/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.SocialJusticeInMedicine.SocialHealth101App;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SBSocialJusticeInMedicine.SocialHealth101;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -1692,7 +1692,7 @@
 				DEVELOPMENT_TEAM = 5LW829KJ73;
 				INFOPLIST_FILE = "Social Health 101/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.SocialJusticeInMedicine.SocialHealth101App;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SBSocialJusticeInMedicine.SocialHealth101;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
