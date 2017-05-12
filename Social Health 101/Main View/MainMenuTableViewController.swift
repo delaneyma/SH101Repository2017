@@ -96,7 +96,6 @@ class MainMenuTableViewController: UITableViewController {
         
         if indexPath.section == 0 && indexPath.row == 0 {
             let cell = tableView.dequeueReusableCell(withIdentifier: "MainTitleCell", for: indexPath) as! MainTitleTableViewCell
-            cell.MaintTitleLabel.text = "Learn More About This App"
             return cell}
         if indexPath.section == 0 && indexPath.row == 1 {
             let cell = tableView.dequeueReusableCell(withIdentifier: "MainCellP1", for: indexPath) as! MainCellP1TableViewCell
@@ -196,7 +195,7 @@ class MainMenuTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         print(indexPath.section, indexPath.row)
         //About me section segue
-        if (indexPath.section == 0) && (indexPath.row == 0) {
+        if (indexPath.section == 0) && (indexPath.row == 1) {
             self.performSegue(withIdentifier: "AboutSegue", sender: indexPath);
         }
         // segue for the subMenus

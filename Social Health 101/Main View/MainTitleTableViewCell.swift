@@ -9,7 +9,6 @@
 import UIKit
 
 class MainTitleTableViewCell: UITableViewCell {
-    @IBOutlet weak var MaintTitleLabel: UILabel!
 
     @IBOutlet weak var MainTitlePic: UIImageView!
     override func awakeFromNib() {

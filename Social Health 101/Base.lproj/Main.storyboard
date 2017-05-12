@@ -253,42 +253,30 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.72941176470000002" green="0.34509803919999998" blue="0.35686274509999999" alpha="1" colorSpace="calibratedRGB"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MainTitleCell" rowHeight="235" id="lAY-sW-8F1" customClass="MainTitleTableViewCell" customModule="Social_Health_101" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="56" width="375" height="235"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MainTitleCell" rowHeight="196" id="lAY-sW-8F1" customClass="MainTitleTableViewCell" customModule="Social_Health_101" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="56" width="375" height="196"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="lAY-sW-8F1" id="eJa-nJ-STW">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="234"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="196"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="modsize500helplogosansscript.png" translatesAutoresizingMaskIntoConstraints="NO" id="bJP-Uf-gnJ">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="195"/>
-                                            <constraints>
-                                                <constraint firstAttribute="width" secondItem="bJP-Uf-gnJ" secondAttribute="height" multiplier="25:13" id="hud-Gz-X89"/>
-                                            </constraints>
                                         </imageView>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Page Title" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jyr-cZ-n8z">
-                                            <rect key="frame" x="151" y="203" width="73" height="15.5"/>
-                                            <fontDescription key="fontDescription" name="HelveticaNeue-LightItalic" family="Helvetica Neue" pointSize="17"/>
-                                            <color key="textColor" red="0.1450980392" green="0.32156862749999998" blue="0.2156862745" alpha="1" colorSpace="calibratedRGB"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
                                     </subviews>
                                     <constraints>
-                                        <constraint firstItem="jyr-cZ-n8z" firstAttribute="centerX" secondItem="eJa-nJ-STW" secondAttribute="centerX" id="EDE-Ub-QN2"/>
-                                        <constraint firstItem="bJP-Uf-gnJ" firstAttribute="top" secondItem="eJa-nJ-STW" secondAttribute="top" id="Hyf-J8-8PE"/>
-                                        <constraint firstItem="bJP-Uf-gnJ" firstAttribute="leading" secondItem="eJa-nJ-STW" secondAttribute="leading" id="WkO-eM-Xf6"/>
-                                        <constraint firstAttribute="bottomMargin" secondItem="jyr-cZ-n8z" secondAttribute="bottom" constant="8" id="o5Q-Da-Oay"/>
-                                        <constraint firstAttribute="trailing" secondItem="bJP-Uf-gnJ" secondAttribute="trailing" id="tzX-vu-zXO"/>
-                                        <constraint firstItem="jyr-cZ-n8z" firstAttribute="top" secondItem="bJP-Uf-gnJ" secondAttribute="bottom" constant="8" id="u00-OI-qjw"/>
+                                        <constraint firstAttribute="trailing" secondItem="bJP-Uf-gnJ" secondAttribute="trailing" id="EFY-o7-gbn"/>
+                                        <constraint firstItem="bJP-Uf-gnJ" firstAttribute="top" secondItem="eJa-nJ-STW" secondAttribute="top" id="QAt-tQ-sNY"/>
+                                        <constraint firstItem="bJP-Uf-gnJ" firstAttribute="leading" secondItem="eJa-nJ-STW" secondAttribute="leading" id="T8H-vX-OR3"/>
+                                        <constraint firstAttribute="bottom" secondItem="bJP-Uf-gnJ" secondAttribute="bottom" id="qa0-7N-j4Q"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
                                     <outlet property="MainTitlePic" destination="bJP-Uf-gnJ" id="WLA-ys-ujL"/>
-                                    <outlet property="MaintTitleLabel" destination="jyr-cZ-n8z" id="Pwt-yz-WN1"/>
                                 </connections>
                             </tableViewCell>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="MainCellP1" textLabel="vIH-3B-48Z" style="IBUITableViewCellStyleDefault" id="vi4-OV-wCe" customClass="MainCellP1TableViewCell" customModule="Social_Health_101" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="291" width="375" height="44"/>
+                                <rect key="frame" x="0.0" y="252" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="vi4-OV-wCe" id="GCc-QB-rEK">
                                     <rect key="frame" x="0.0" y="0.0" width="342" height="43.5"/>
@@ -308,7 +296,7 @@
                                 </connections>
                             </tableViewCell>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="MainCell" textLabel="rXo-oI-V03" detailTextLabel="EPu-IE-O57" style="IBUITableViewCellStyleSubtitle" id="m7d-bG-nkh" customClass="MainTableViewCell" customModule="Social_Health_101" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="335" width="375" height="44"/>
+                                <rect key="frame" x="0.0" y="296" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="m7d-bG-nkh" id="opg-FV-ipo">
                                     <rect key="frame" x="0.0" y="0.0" width="342" height="43.5"/>
@@ -356,7 +344,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VmE-ek-9CQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="311" y="-218"/>
+            <point key="canvasLocation" x="309.60000000000002" y="-218.1409295352324"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="njD-6f-8dV">
@@ -1343,11 +1331,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.72941176470000002" green="0.34509803919999998" blue="0.35686274509999999" alpha="1" colorSpace="calibratedRGB"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MICHCP1" rowHeight="608" id="Aez-qo-Q4n" customClass="MICHCP1TableViewCell" customModule="Social_Health_101" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="56" width="375" height="608"/>
+                            <tableViewCell clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MICHCP1" rowHeight="552" id="Aez-qo-Q4n" customClass="MICHCP1TableViewCell" customModule="Social_Health_101" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="56" width="375" height="552"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Aez-qo-Q4n" id="VPd-io-E1q">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="607"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="551"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Proto1 Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mJw-rL-aql">
@@ -1357,51 +1345,60 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kQL-dP-WfJ">
-                                            <rect key="frame" x="8" y="36" width="359" height="167"/>
-                                            <string key="text">The Suffolk County Department of Health Services - Maternal and Infant Community Health Collaborative (MICHC) is a New York State Department of Health grant-funded project designed to improve the health of women ages 12-44 and their families. 
-
-The Suffolk County MICHC project has chosen to focus on 6 high risk zip codes located in Western Suffolk County: Amityville, 11701, Bay Shore, 11706, Brentwood, 11717, Central Islip, 11722, Copiague, 11726 and Wyandanch, 11798.</string>
+                                            <rect key="frame" x="8" y="36" width="359" height="76"/>
+                                            <string key="text">The Suffolk County Department of Health Services - Maternal and Infant Community Health Collaborative (MICHC) is a New York State Department of Health grant-funded project designed to improve the health of women ages 12-44 and their families. </string>
+                                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qql-AT-dYu">
+                                            <rect key="frame" x="8" y="120" width="359" height="76"/>
+                                            <string key="text">The Suffolk County MICHC project has chosen to focus on 6 high risk zip codes located in Western Suffolk County: Amityville, 11701, Bay Shore, 11706, Brentwood, 11717, Central Islip, 11722, Copiague, 11726 and Wyandanch, 11798.</string>
+                                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="249" text="MICHCP1 Cont Label2" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7sh-HA-Pxw">
+                                            <rect key="frame" x="8" y="499" width="359" height="36.5"/>
                                             <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MICHCmap.png" translatesAutoresizingMaskIntoConstraints="NO" id="hgU-EC-F1v">
-                                            <rect key="frame" x="17" y="212" width="341" height="283"/>
+                                            <rect key="frame" x="17" y="206" width="341" height="283"/>
                                             <constraints>
-                                                <constraint firstAttribute="width" secondItem="hgU-EC-F1v" secondAttribute="height" multiplier="341:283" id="3sM-Ci-Efi"/>
+                                                <constraint firstAttribute="width" secondItem="hgU-EC-F1v" secondAttribute="height" multiplier="341:283" id="aGu-Xd-Bde"/>
                                             </constraints>
                                         </imageView>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="249" text="MICHCP1 Cont Label2" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7sh-HA-Pxw">
-                                            <rect key="frame" x="8" y="503" width="359" height="88.5"/>
-                                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
-                                            <nil key="textColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
                                     </subviews>
                                     <constraints>
-                                        <constraint firstItem="hgU-EC-F1v" firstAttribute="leading" secondItem="VPd-io-E1q" secondAttribute="leadingMargin" constant="9" id="22j-Is-Upr"/>
+                                        <constraint firstItem="7sh-HA-Pxw" firstAttribute="trailing" secondItem="VPd-io-E1q" secondAttribute="trailingMargin" id="0B9-or-AXd"/>
                                         <constraint firstItem="kQL-dP-WfJ" firstAttribute="trailing" secondItem="VPd-io-E1q" secondAttribute="trailingMargin" id="6FW-Rx-YMF"/>
-                                        <constraint firstItem="7sh-HA-Pxw" firstAttribute="trailing" secondItem="VPd-io-E1q" secondAttribute="trailingMargin" id="CMw-CX-TSc"/>
-                                        <constraint firstAttribute="bottomMargin" secondItem="7sh-HA-Pxw" secondAttribute="bottom" constant="8" id="FZf-lR-zs8"/>
-                                        <constraint firstItem="hgU-EC-F1v" firstAttribute="top" secondItem="kQL-dP-WfJ" secondAttribute="bottom" constant="9" id="JFh-Hv-TLq"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="hgU-EC-F1v" secondAttribute="trailing" constant="9" id="AdB-sk-jzo"/>
+                                        <constraint firstItem="Qql-AT-dYu" firstAttribute="leading" secondItem="VPd-io-E1q" secondAttribute="leadingMargin" id="CHL-Vs-Orw"/>
+                                        <constraint firstItem="7sh-HA-Pxw" firstAttribute="top" secondItem="hgU-EC-F1v" secondAttribute="bottom" constant="10" id="EoK-Wu-b7J"/>
+                                        <constraint firstItem="hgU-EC-F1v" firstAttribute="leading" secondItem="VPd-io-E1q" secondAttribute="leadingMargin" constant="9" id="Npj-cg-XgR"/>
                                         <constraint firstItem="mJw-rL-aql" firstAttribute="top" secondItem="VPd-io-E1q" secondAttribute="topMargin" id="VTX-Hi-ZXQ"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="7sh-HA-Pxw" secondAttribute="bottom" constant="8" id="WbW-39-MPa"/>
                                         <constraint firstItem="mJw-rL-aql" firstAttribute="leading" secondItem="VPd-io-E1q" secondAttribute="leadingMargin" id="c0j-E4-hX7"/>
-                                        <constraint firstItem="7sh-HA-Pxw" firstAttribute="leading" secondItem="VPd-io-E1q" secondAttribute="leadingMargin" id="epu-hc-v2v"/>
-                                        <constraint firstAttribute="trailingMargin" secondItem="hgU-EC-F1v" secondAttribute="trailing" constant="9" id="fQU-6F-BbT"/>
+                                        <constraint firstItem="Qql-AT-dYu" firstAttribute="top" secondItem="kQL-dP-WfJ" secondAttribute="bottom" constant="8" id="g0e-Zl-jaN"/>
+                                        <constraint firstItem="hgU-EC-F1v" firstAttribute="top" secondItem="Qql-AT-dYu" secondAttribute="bottom" constant="10" id="g5S-dK-Wel"/>
                                         <constraint firstItem="kQL-dP-WfJ" firstAttribute="top" secondItem="mJw-rL-aql" secondAttribute="bottom" constant="8" id="v20-OJ-2aK"/>
-                                        <constraint firstItem="7sh-HA-Pxw" firstAttribute="top" secondItem="hgU-EC-F1v" secondAttribute="bottom" constant="8" id="ygr-8P-pou"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="Qql-AT-dYu" secondAttribute="trailing" id="xFH-8q-XKV"/>
+                                        <constraint firstItem="7sh-HA-Pxw" firstAttribute="leading" secondItem="VPd-io-E1q" secondAttribute="leadingMargin" id="zMz-og-6ib"/>
                                         <constraint firstItem="kQL-dP-WfJ" firstAttribute="leading" secondItem="VPd-io-E1q" secondAttribute="leadingMargin" id="zfb-hy-hN8"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
                                     <outlet property="MICHCP1ContLabel1" destination="kQL-dP-WfJ" id="rIf-T8-hIe"/>
+                                    <outlet property="MICHCP1ContLabel15" destination="Qql-AT-dYu" id="s16-qo-X7f"/>
                                     <outlet property="MICHCP1ContLabel2" destination="7sh-HA-Pxw" id="EZj-fh-2tZ"/>
                                     <outlet property="MICHCP1TitleLabel" destination="mJw-rL-aql" id="h0u-hH-aa5"/>
                                     <outlet property="MICHCP2Image" destination="hgU-EC-F1v" id="zUB-ol-2qI"/>
                                 </connections>
                             </tableViewCell>
                             <tableViewCell clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MICHCP2" rowHeight="87" id="9cC-h4-shw" customClass="MICHCP2TableViewCell" customModule="Social_Health_101" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="664" width="375" height="87"/>
+                                <rect key="frame" x="0.0" y="608" width="375" height="87"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="9cC-h4-shw" id="Lnt-4s-PtM">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="86"/>
@@ -1433,6 +1430,81 @@ The Suffolk County MICHC project has chosen to focus on 6 high risk zip codes lo
                                 <connections>
                                     <outlet property="MICHCP2ContLabel" destination="WRd-7h-x21" id="fyD-I0-ALL"/>
                                     <outlet property="MICHCP2TitleLabel" destination="4DG-Ey-pEa" id="Q4a-2i-Qv7"/>
+                                </connections>
+                            </tableViewCell>
+                            <tableViewCell clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MICHCP3" rowHeight="122" id="Oqn-9l-cOC" customClass="MICHCP3TableViewCell" customModule="Social_Health_101" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="695" width="375" height="122"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Oqn-9l-cOC" id="jTn-pR-5UD">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="121"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Proto1 Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rzl-V9-0yt">
+                                            <rect key="frame" x="8" y="8" width="359" height="16"/>
+                                            <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="13"/>
+                                            <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uni-I7-Vl3">
+                                            <rect key="frame" x="8" y="26" width="359" height="76"/>
+                                            <string key="text">Keeping Families Healthy is a free service created with the primary care pediatricians at Stony Brook Children’s which provides home visits by a community health worker centered primarily around three areas of child health and wellness: 
+</string>
+                                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="rzl-V9-0yt" firstAttribute="trailing" secondItem="jTn-pR-5UD" secondAttribute="trailingMargin" id="1Qo-gz-TVC"/>
+                                        <constraint firstItem="uni-I7-Vl3" firstAttribute="leading" secondItem="jTn-pR-5UD" secondAttribute="leadingMargin" id="9hK-75-WE5"/>
+                                        <constraint firstItem="uni-I7-Vl3" firstAttribute="top" secondItem="rzl-V9-0yt" secondAttribute="bottom" constant="2" id="HYM-LX-Vgc"/>
+                                        <constraint firstItem="uni-I7-Vl3" firstAttribute="trailing" secondItem="jTn-pR-5UD" secondAttribute="trailingMargin" id="JZ3-uQ-gJK"/>
+                                        <constraint firstItem="rzl-V9-0yt" firstAttribute="top" secondItem="jTn-pR-5UD" secondAttribute="topMargin" id="X0U-TN-7g3"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="uni-I7-Vl3" secondAttribute="bottom" constant="11" id="jMm-FW-suj"/>
+                                        <constraint firstItem="rzl-V9-0yt" firstAttribute="leading" secondItem="jTn-pR-5UD" secondAttribute="leadingMargin" id="pvi-Q0-mEQ"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="MICHCP3ContLabel" destination="uni-I7-Vl3" id="COY-R0-raK"/>
+                                    <outlet property="MICHCP3TitleLabel" destination="rzl-V9-0yt" id="lWh-zB-XDY"/>
+                                </connections>
+                            </tableViewCell>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="MICHCP4" rowHeight="139" id="rwD-8P-mlr" customClass="MICHCP4TableViewCell" customModule="Social_Health_101" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="817" width="375" height="139"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="rwD-8P-mlr" id="TJB-m2-gSp">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="138"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6j7-w6-WI7">
+                                            <rect key="frame" x="8" y="12" width="359" height="76"/>
+                                            <string key="text">Keeping Families Healthy is a free service created with the primary care pediatricians at Stony Brook Children’s which provides home visits by a community health worker centered primarily around three areas of child health and wellness: 
+</string>
+                                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0j1-2V-cut">
+                                            <rect key="frame" x="16" y="98" width="359" height="28"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                            <state key="normal" title="Tap Here to Call in a Referral"/>
+                                            <connections>
+                                                <action selector="MICHCP4LinkAction:" destination="rwD-8P-mlr" eventType="touchUpInside" id="mdB-5g-KHN"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="6j7-w6-WI7" firstAttribute="top" secondItem="TJB-m2-gSp" secondAttribute="topMargin" constant="4" id="0Xc-ob-1r1"/>
+                                        <constraint firstItem="0j1-2V-cut" firstAttribute="top" secondItem="6j7-w6-WI7" secondAttribute="bottom" constant="10" id="Et9-5Q-6i3"/>
+                                        <constraint firstAttribute="bottom" secondItem="0j1-2V-cut" secondAttribute="bottom" constant="12" id="Gfg-e9-rgk"/>
+                                        <constraint firstItem="6j7-w6-WI7" firstAttribute="trailing" secondItem="TJB-m2-gSp" secondAttribute="trailingMargin" id="JUP-h5-moO"/>
+                                        <constraint firstItem="6j7-w6-WI7" firstAttribute="leading" secondItem="TJB-m2-gSp" secondAttribute="leadingMargin" id="WuV-Mi-hUl"/>
+                                        <constraint firstItem="0j1-2V-cut" firstAttribute="leading" secondItem="TJB-m2-gSp" secondAttribute="leadingMargin" constant="8" id="gOn-C3-ekJ"/>
+                                        <constraint firstItem="0j1-2V-cut" firstAttribute="trailing" secondItem="TJB-m2-gSp" secondAttribute="trailingMargin" constant="8" id="iFS-zI-EtR"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="MICHCP4ContLabel" destination="6j7-w6-WI7" id="Pim-bb-DjX"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>

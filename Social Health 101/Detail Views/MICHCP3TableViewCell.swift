@@ -1,19 +1,16 @@
 //
-//  MICHCP1TableViewCell.swift
+//  MICHCP3TableViewCell.swift
 //  Social Health 101
 //
-//  Created by Marc Delaney on 4/25/17.
+//  Created by Marc Delaney on 5/11/17.
 //  Copyright © 2017 MDCoderforHealth. All rights reserved.
 //
 
 import UIKit
 
-class MICHCP1TableViewCell: UITableViewCell {
-    @IBOutlet weak var MICHCP1TitleLabel: UILabel!
-    @IBOutlet weak var MICHCP1ContLabel1: UILabel!
-    @IBOutlet weak var MICHCP1ContLabel2: UILabel!
-    @IBOutlet weak var MICHCP2Image: UIImageView!
-    @IBOutlet weak var MICHCP1ContLabel15: UILabel!
+class MICHCP3TableViewCell: UITableViewCell {
+    @IBOutlet weak var MICHCP3TitleLabel: UILabel!
+    @IBOutlet weak var MICHCP3ContLabel: UILabel!
 
     override func awakeFromNib() {
         super.awakeFromNib()

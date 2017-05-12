@@ -16,11 +16,13 @@ class FPP3TableViewCell: UITableViewCell {
     
     @IBAction func FPP3LinkAction(_ sender: Any) {
        
-            UIApplication.shared.openURL(URL(string: "https://www.google.com")!)
+        if let url = NSURL(string: "http://www.islandharvest.org/resources/food-locator/") {
+            UIApplication.shared.open(url as URL, options: [:])}
     }
     
     
-//      FPP3Button.addTarget(self, action: #selector(FPP3LinkAction), for: .touchUpInside)
+   
+    
     
     override func awakeFromNib() {
         super.awakeFromNib()
