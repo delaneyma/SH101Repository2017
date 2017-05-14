@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import ResearchKit
+//import ResearchKit
 
 
 class MainMenuTableViewController: UITableViewController {

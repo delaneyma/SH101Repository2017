@@ -7,10 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4911CCC01EC1F2AB00F8CA1B /* ResearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4911CCBF1EC1F2AB00F8CA1B /* ResearchViewController.swift */; };
-		4911CCCB1EC1F4CE00F8CA1B /* ConsentDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4911CCCA1EC1F4CE00F8CA1B /* ConsentDocument.swift */; };
-		4911CCCD1EC1F5AA00F8CA1B /* ConsentTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4911CCCC1EC1F5AA00F8CA1B /* ConsentTask.swift */; };
-		4911CCCF1EC1F96000F8CA1B /* SurveyTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4911CCCE1EC1F96000F8CA1B /* SurveyTask.swift */; };
 		491952BE1EC78EEA00D68E38 /* SH101MDLobSmSoc.png in Resources */ = {isa = PBXBuildFile; fileRef = 491952BD1EC78EEA00D68E38 /* SH101MDLobSmSoc.png */; };
 		491952C21EC7947D00D68E38 /* SH101LogoSJR2.png in Resources */ = {isa = PBXBuildFile; fileRef = 491952C11EC7947D00D68E38 /* SH101LogoSJR2.png */; };
 		491952C41EC796B200D68E38 /* SH101CAR1.png in Resources */ = {isa = PBXBuildFile; fileRef = 491952C31EC796B200D68E38 /* SH101CAR1.png */; };
@@ -262,10 +258,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		4911CCBF1EC1F2AB00F8CA1B /* ResearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResearchViewController.swift; path = "Social Health 101/Main View/ResearchViewController.swift"; sourceTree = "<group>"; };
-		4911CCCA1EC1F4CE00F8CA1B /* ConsentDocument.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConsentDocument.swift; path = "Social Health 101/Main View/ResearchFiles/ConsentDocument.swift"; sourceTree = "<group>"; };
-		4911CCCC1EC1F5AA00F8CA1B /* ConsentTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConsentTask.swift; path = "Social Health 101/Main View/ResearchFiles/ConsentTask.swift"; sourceTree = "<group>"; };
-		4911CCCE1EC1F96000F8CA1B /* SurveyTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SurveyTask.swift; path = "Social Health 101/Main View/ResearchFiles/SurveyTask.swift"; sourceTree = "<group>"; };
 		491952BD1EC78EEA00D68E38 /* SH101MDLobSmSoc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SH101MDLobSmSoc.png; sourceTree = "<group>"; };
 		491952C11EC7947D00D68E38 /* SH101LogoSJR2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SH101LogoSJR2.png; sourceTree = "<group>"; };
 		491952C31EC796B200D68E38 /* SH101CAR1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SH101CAR1.png; sourceTree = "<group>"; };
@@ -517,18 +509,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4911CCD01EC1F9A300F8CA1B /* Research Files */ = {
-			isa = PBXGroup;
-			children = (
-				4911CCBF1EC1F2AB00F8CA1B /* ResearchViewController.swift */,
-				4911CCCE1EC1F96000F8CA1B /* SurveyTask.swift */,
-				4911CCCA1EC1F4CE00F8CA1B /* ConsentDocument.swift */,
-				4911CCCC1EC1F5AA00F8CA1B /* ConsentTask.swift */,
-			);
-			name = "Research Files";
-			path = ..;
-			sourceTree = "<group>";
-		};
 		491C60681EC15D9F008623A9 /* About Detail */ = {
 			isa = PBXGroup;
 			children = (
@@ -750,7 +730,6 @@
 				4980F0051EA54AE20085F115 /* Main.storyboard */,
 				4980F0011EA54AE20085F115 /* AppDelegate.swift */,
 				4980F00A1EA54AE20085F115 /* LaunchScreen.storyboard */,
-				4911CCD01EC1F9A300F8CA1B /* Research Files */,
 				491C60681EC15D9F008623A9 /* About Detail */,
 				492522011EA5595500071906 /* MainView */,
 				4980F0081EA54AE20085F115 /* Assets.xcassets */,
@@ -1394,7 +1373,6 @@
 				49FC78A21EBA2D5600815D1C /* MRP3TableViewCell.swift in Sources */,
 				4978608A1EACDB980067E55A /* KFHProto1TableViewCell.swift in Sources */,
 				4978608F1EACDE5E0067E55A /* KFHTableViewController.swift in Sources */,
-				4911CCCD1EC1F5AA00F8CA1B /* ConsentTask.swift in Sources */,
 				491C60361EC0CC7F008623A9 /* AboutP2TableViewCell.swift in Sources */,
 				49DEB17D1EABC4FA002E0ACA /* NIRUTableViewCell.swift in Sources */,
 				49A9B2081EBA7704001E27AD /* GRTableViewController.swift in Sources */,
@@ -1408,7 +1386,6 @@
 				493E69361EB656410014EA3B /* IWDRTableViewController.swift in Sources */,
 				4996FF581EB6499500CB9FE5 /* PHP2TableViewCell.swift in Sources */,
 				493C6F8D1EB7AD55004EC991 /* SCMHHTableViewController.swift in Sources */,
-				4911CCCF1EC1F96000F8CA1B /* SurveyTask.swift in Sources */,
 				49DEB1581EABA504002E0ACA /* LATableViewController.swift in Sources */,
 				49FC78901EBA0E4B00815D1C /* ONAP4TableViewCell.swift in Sources */,
 				49A9B2011EBA7116001E27AD /* NMP1TableViewCell.swift in Sources */,
@@ -1457,7 +1434,6 @@
 				4958697E1EC0BC18000275F2 /* MainTitleTableViewCell.swift in Sources */,
 				49A1557F1EB8B75E008CF0A1 /* FPP3TableViewCell.swift in Sources */,
 				49C1486A1EB38A0C00EA4D46 /* VIBSTableViewController.swift in Sources */,
-				4911CCCB1EC1F4CE00F8CA1B /* ConsentDocument.swift in Sources */,
 				49AF99E21EAF868800C43E21 /* RMRP1TableViewCell.swift in Sources */,
 				495B2A801EB23D7C000A5C3F /* CPSTableViewController.swift in Sources */,
 				493C6F811EB79EBE004EC991 /* RDVSP1TableViewCell.swift in Sources */,
@@ -1532,7 +1508,6 @@
 				49A40B521EBB7120000730B8 /* RMRP3TableViewCell.swift in Sources */,
 				495B2A821EB23D92000A5C3F /* CPSP1TableViewCell.swift in Sources */,
 				493C6F831EB79EC8004EC991 /* RDVSP2TableViewCell.swift in Sources */,
-				4911CCC01EC1F2AB00F8CA1B /* ResearchViewController.swift in Sources */,
 				49E9FDE31EBA56D4006F6F1C /* AHCP3TableViewCell.swift in Sources */,
 				495B2AA01EB370BE000A5C3F /* PETableViewController.swift in Sources */,
 				49D93F251EB6C5DB001AEE1C /* MP2TableViewCell.swift in Sources */,
