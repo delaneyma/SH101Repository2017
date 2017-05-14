@@ -11,6 +11,9 @@
 		4911CCCB1EC1F4CE00F8CA1B /* ConsentDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4911CCCA1EC1F4CE00F8CA1B /* ConsentDocument.swift */; };
 		4911CCCD1EC1F5AA00F8CA1B /* ConsentTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4911CCCC1EC1F5AA00F8CA1B /* ConsentTask.swift */; };
 		4911CCCF1EC1F96000F8CA1B /* SurveyTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4911CCCE1EC1F96000F8CA1B /* SurveyTask.swift */; };
+		491952BE1EC78EEA00D68E38 /* SH101MDLobSmSoc.png in Resources */ = {isa = PBXBuildFile; fileRef = 491952BD1EC78EEA00D68E38 /* SH101MDLobSmSoc.png */; };
+		491952C21EC7947D00D68E38 /* SH101LogoSJR2.png in Resources */ = {isa = PBXBuildFile; fileRef = 491952C11EC7947D00D68E38 /* SH101LogoSJR2.png */; };
+		491952C41EC796B200D68E38 /* SH101CAR1.png in Resources */ = {isa = PBXBuildFile; fileRef = 491952C31EC796B200D68E38 /* SH101CAR1.png */; };
 		491C60321EC0CC54008623A9 /* AboutTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491C60311EC0CC54008623A9 /* AboutTableViewController.swift */; };
 		491C60341EC0CC72008623A9 /* AboutP1TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491C60331EC0CC72008623A9 /* AboutP1TableViewCell.swift */; };
 		491C60361EC0CC7F008623A9 /* AboutP2TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491C60351EC0CC7F008623A9 /* AboutP2TableViewCell.swift */; };
@@ -263,6 +266,9 @@
 		4911CCCA1EC1F4CE00F8CA1B /* ConsentDocument.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConsentDocument.swift; path = "Social Health 101/Main View/ResearchFiles/ConsentDocument.swift"; sourceTree = "<group>"; };
 		4911CCCC1EC1F5AA00F8CA1B /* ConsentTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConsentTask.swift; path = "Social Health 101/Main View/ResearchFiles/ConsentTask.swift"; sourceTree = "<group>"; };
 		4911CCCE1EC1F96000F8CA1B /* SurveyTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SurveyTask.swift; path = "Social Health 101/Main View/ResearchFiles/SurveyTask.swift"; sourceTree = "<group>"; };
+		491952BD1EC78EEA00D68E38 /* SH101MDLobSmSoc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SH101MDLobSmSoc.png; sourceTree = "<group>"; };
+		491952C11EC7947D00D68E38 /* SH101LogoSJR2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SH101LogoSJR2.png; sourceTree = "<group>"; };
+		491952C31EC796B200D68E38 /* SH101CAR1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SH101CAR1.png; sourceTree = "<group>"; };
 		491C60311EC0CC54008623A9 /* AboutTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AboutTableViewController.swift; path = "SubMenu Views/AboutTableViewController.swift"; sourceTree = "<group>"; };
 		491C60331EC0CC72008623A9 /* AboutP1TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AboutP1TableViewCell.swift; path = "SubMenu Views/AboutP1TableViewCell.swift"; sourceTree = "<group>"; };
 		491C60351EC0CC7F008623A9 /* AboutP2TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AboutP2TableViewCell.swift; path = "SubMenu Views/AboutP2TableViewCell.swift"; sourceTree = "<group>"; };
@@ -1132,6 +1138,9 @@
 		49DEB1851EABC540002E0ACA /* SubMenu Pics */ = {
 			isa = PBXGroup;
 			children = (
+				491952C31EC796B200D68E38 /* SH101CAR1.png */,
+				491952BD1EC78EEA00D68E38 /* SH101MDLobSmSoc.png */,
+				491952C11EC7947D00D68E38 /* SH101LogoSJR2.png */,
 				498E6FFB1EC3FD1500B6DA55 /* MainView.png */,
 				498E6FFF1EC3FD2500B6DA55 /* SubView.png */,
 				498E70011EC3FD3300B6DA55 /* DetailView.png */,
@@ -1272,7 +1281,7 @@
 				TargetAttributes = {
 					4980EFFD1EA54AE20085F115 = {
 						CreatedOnToolsVersion = 8.3.1;
-						DevelopmentTeam = 5LW829KJ73;
+						DevelopmentTeam = EKZY2NE8AB;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.Maps.iOS = {
@@ -1311,6 +1320,7 @@
 				492522001EA5584700071906 /* HeaderCellFile.xib in Resources */,
 				493C6F691EB77164004EC991 /* LIADM Pic.png in Resources */,
 				498E70001EC3FD2500B6DA55 /* SubView.png in Resources */,
+				491952C41EC796B200D68E38 /* SH101CAR1.png in Resources */,
 				49AF99DE1EAF7F7900C43E21 /* FooterCell.xib in Resources */,
 				49DEB1521EABA388002E0ACA /* modsize500helplogosansscript.png in Resources */,
 				4980F00C1EA54AE20085F115 /* LaunchScreen.storyboard in Resources */,
@@ -1324,9 +1334,11 @@
 				49FC78A41EBA370F00815D1C /* maketheroadNY.png in Resources */,
 				4996FF471EB6382C00CB9FE5 /* LICADD-logo-horizontal-all-blue.png in Resources */,
 				49F1069F1EAFDC7A00843FC1 /* LargeHeaderCellFile.xib in Resources */,
+				491952C21EC7947D00D68E38 /* SH101LogoSJR2.png in Resources */,
 				49AABEB71EAFC70D0003A90E /* MICHCmap.png in Resources */,
 				4996FF431EB6184A00CB9FE5 /* LICC logo long 500x100.png in Resources */,
 				495E80721EAE7BA100B4301A /* RMH.jpg in Resources */,
+				491952BE1EC78EEA00D68E38 /* SH101MDLobSmSoc.png in Resources */,
 				49A155841EB8C04B008CF0A1 /* NIRURefugee.jpg in Resources */,
 				492522041EA5613100071906 /* ChildPedDoc1.png in Resources */,
 				49AABEAE1EAFAAF70003A90E /* WICtable.png in Resources */,
@@ -1675,10 +1687,10 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 5LW829KJ73;
+				DEVELOPMENT_TEAM = EKZY2NE8AB;
 				INFOPLIST_FILE = "Social Health 101/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.SBSocialJusticeInMedicine.SocialHealth101;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SocialJusticeInMedicineSB.SocialHealth101;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -1689,10 +1701,10 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 5LW829KJ73;
+				DEVELOPMENT_TEAM = EKZY2NE8AB;
 				INFOPLIST_FILE = "Social Health 101/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.SBSocialJusticeInMedicine.SocialHealth101;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SocialJusticeInMedicineSB.SocialHealth101;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
