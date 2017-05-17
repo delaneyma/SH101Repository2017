@@ -8,14 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		491952BE1EC78EEA00D68E38 /* SH101MDLobSmSoc.png in Resources */ = {isa = PBXBuildFile; fileRef = 491952BD1EC78EEA00D68E38 /* SH101MDLobSmSoc.png */; };
-		491952C21EC7947D00D68E38 /* SH101LogoSJR2.png in Resources */ = {isa = PBXBuildFile; fileRef = 491952C11EC7947D00D68E38 /* SH101LogoSJR2.png */; };
-		491952C41EC796B200D68E38 /* SH101CAR1.png in Resources */ = {isa = PBXBuildFile; fileRef = 491952C31EC796B200D68E38 /* SH101CAR1.png */; };
+		491952C61EC89D4B00D68E38 /* RMHP3TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491952C51EC89D4A00D68E38 /* RMHP3TableViewCell.swift */; };
+		491952C81EC8A1AB00D68E38 /* WICP4TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491952C71EC8A1AB00D68E38 /* WICP4TableViewCell.swift */; };
+		491952CA1EC8AB7F00D68E38 /* IAPP3TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491952C91EC8AB7F00D68E38 /* IAPP3TableViewCell.swift */; };
 		491C60321EC0CC54008623A9 /* AboutTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491C60311EC0CC54008623A9 /* AboutTableViewController.swift */; };
 		491C60341EC0CC72008623A9 /* AboutP1TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491C60331EC0CC72008623A9 /* AboutP1TableViewCell.swift */; };
 		491C60361EC0CC7F008623A9 /* AboutP2TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491C60351EC0CC7F008623A9 /* AboutP2TableViewCell.swift */; };
 		492521FF1EA5584700071906 /* HeaderCellFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492521FD1EA5584700071906 /* HeaderCellFile.swift */; };
 		492522001EA5584700071906 /* HeaderCellFile.xib in Resources */ = {isa = PBXBuildFile; fileRef = 492521FE1EA5584700071906 /* HeaderCellFile.xib */; };
 		492522041EA5613100071906 /* ChildPedDoc1.png in Resources */ = {isa = PBXBuildFile; fileRef = 492522031EA5613100071906 /* ChildPedDoc1.png */; };
+		493BFD481ECB256700523E2F /* SH101SJLwide1.png in Resources */ = {isa = PBXBuildFile; fileRef = 493BFD471ECB256700523E2F /* SH101SJLwide1.png */; };
+		493BFD4A1ECB2A1D00523E2F /* SH101CARWide2.png in Resources */ = {isa = PBXBuildFile; fileRef = 493BFD491ECB2A1D00523E2F /* SH101CARWide2.png */; };
 		493C6F631EB76E21004EC991 /* stat_set_LIADV.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 493C6F621EB76E21004EC991 /* stat_set_LIADV.jpg */; };
 		493C6F691EB77164004EC991 /* LIADM Pic.png in Resources */ = {isa = PBXBuildFile; fileRef = 493C6F681EB77164004EC991 /* LIADM Pic.png */; };
 		493C6F6B1EB776D0004EC991 /* APSP1TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493C6F6A1EB776D0004EC991 /* APSP1TableViewCell.swift */; };
@@ -259,14 +262,17 @@
 
 /* Begin PBXFileReference section */
 		491952BD1EC78EEA00D68E38 /* SH101MDLobSmSoc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SH101MDLobSmSoc.png; sourceTree = "<group>"; };
-		491952C11EC7947D00D68E38 /* SH101LogoSJR2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SH101LogoSJR2.png; sourceTree = "<group>"; };
-		491952C31EC796B200D68E38 /* SH101CAR1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SH101CAR1.png; sourceTree = "<group>"; };
+		491952C51EC89D4A00D68E38 /* RMHP3TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RMHP3TableViewCell.swift; path = "SubMenu Views/RMHP3TableViewCell.swift"; sourceTree = "<group>"; };
+		491952C71EC8A1AB00D68E38 /* WICP4TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WICP4TableViewCell.swift; path = "SubMenu Views/WICP4TableViewCell.swift"; sourceTree = "<group>"; };
+		491952C91EC8AB7F00D68E38 /* IAPP3TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IAPP3TableViewCell.swift; path = "Detail Views/IAPP3TableViewCell.swift"; sourceTree = "<group>"; };
 		491C60311EC0CC54008623A9 /* AboutTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AboutTableViewController.swift; path = "SubMenu Views/AboutTableViewController.swift"; sourceTree = "<group>"; };
 		491C60331EC0CC72008623A9 /* AboutP1TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AboutP1TableViewCell.swift; path = "SubMenu Views/AboutP1TableViewCell.swift"; sourceTree = "<group>"; };
 		491C60351EC0CC7F008623A9 /* AboutP2TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AboutP2TableViewCell.swift; path = "SubMenu Views/AboutP2TableViewCell.swift"; sourceTree = "<group>"; };
 		492521FD1EA5584700071906 /* HeaderCellFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HeaderCellFile.swift; path = "Main View/HeaderCellFile.swift"; sourceTree = "<group>"; };
 		492521FE1EA5584700071906 /* HeaderCellFile.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HeaderCellFile.xib; path = "Main View/HeaderCellFile.xib"; sourceTree = "<group>"; };
 		492522031EA5613100071906 /* ChildPedDoc1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ChildPedDoc1.png; path = Images/ChildPedDoc1.png; sourceTree = "<group>"; };
+		493BFD471ECB256700523E2F /* SH101SJLwide1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SH101SJLwide1.png; path = Images/SH101SJLwide1.png; sourceTree = "<group>"; };
+		493BFD491ECB2A1D00523E2F /* SH101CARWide2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SH101CARWide2.png; path = Images/SH101CARWide2.png; sourceTree = "<group>"; };
 		493C6F621EB76E21004EC991 /* stat_set_LIADV.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = stat_set_LIADV.jpg; path = Images/stat_set_LIADV.jpg; sourceTree = "<group>"; };
 		493C6F681EB77164004EC991 /* LIADM Pic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "LIADM Pic.png"; path = "Images/LIADM Pic.png"; sourceTree = "<group>"; };
 		493C6F6A1EB776D0004EC991 /* APSP1TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = APSP1TableViewCell.swift; path = "Detail Views/APSP1TableViewCell.swift"; sourceTree = "<group>"; };
@@ -664,6 +670,7 @@
 				495E80661EAE70BF00B4301A /* RMHTableViewController.swift */,
 				495E80681EAE70D900B4301A /* RMHP1TableViewCell.swift */,
 				495E806F1EAE78DC00B4301A /* RMHP2TableViewCell.swift */,
+				491952C51EC89D4A00D68E38 /* RMHP3TableViewCell.swift */,
 			);
 			name = RMH;
 			sourceTree = "<group>";
@@ -851,6 +858,7 @@
 			isa = PBXGroup;
 			children = (
 				49AABEA41EAF987A0003A90E /* WICTableViewController.swift */,
+				491952C71EC8A1AB00D68E38 /* WICP4TableViewCell.swift */,
 				49AABEAB1EAFAA940003A90E /* WICP3TableViewCell.swift */,
 				49AABEA21EAF986A0003A90E /* WICP1TableViewCell.swift */,
 				49AABEA61EAF988E0003A90E /* WICP2TableViewCell.swift */,
@@ -1117,9 +1125,9 @@
 		49DEB1851EABC540002E0ACA /* SubMenu Pics */ = {
 			isa = PBXGroup;
 			children = (
-				491952C31EC796B200D68E38 /* SH101CAR1.png */,
+				493BFD471ECB256700523E2F /* SH101SJLwide1.png */,
+				493BFD491ECB2A1D00523E2F /* SH101CARWide2.png */,
 				491952BD1EC78EEA00D68E38 /* SH101MDLobSmSoc.png */,
-				491952C11EC7947D00D68E38 /* SH101LogoSJR2.png */,
 				498E6FFB1EC3FD1500B6DA55 /* MainView.png */,
 				498E6FFF1EC3FD2500B6DA55 /* SubView.png */,
 				498E70011EC3FD3300B6DA55 /* DetailView.png */,
@@ -1175,6 +1183,7 @@
 			isa = PBXGroup;
 			children = (
 				49F106A21EAFE6CB00843FC1 /* IAPTableViewController.swift */,
+				491952C91EC8AB7F00D68E38 /* IAPP3TableViewCell.swift */,
 				495B2A761EB2122D000A5C3F /* IAPMapViewController.swift */,
 				49F106A41EAFE8A000843FC1 /* IAPP2TableViewCell.swift */,
 				49F106A01EAFE64200843FC1 /* IAPP1TableViewCell.swift */,
@@ -1299,7 +1308,6 @@
 				492522001EA5584700071906 /* HeaderCellFile.xib in Resources */,
 				493C6F691EB77164004EC991 /* LIADM Pic.png in Resources */,
 				498E70001EC3FD2500B6DA55 /* SubView.png in Resources */,
-				491952C41EC796B200D68E38 /* SH101CAR1.png in Resources */,
 				49AF99DE1EAF7F7900C43E21 /* FooterCell.xib in Resources */,
 				49DEB1521EABA388002E0ACA /* modsize500helplogosansscript.png in Resources */,
 				4980F00C1EA54AE20085F115 /* LaunchScreen.storyboard in Resources */,
@@ -1313,13 +1321,13 @@
 				49FC78A41EBA370F00815D1C /* maketheroadNY.png in Resources */,
 				4996FF471EB6382C00CB9FE5 /* LICADD-logo-horizontal-all-blue.png in Resources */,
 				49F1069F1EAFDC7A00843FC1 /* LargeHeaderCellFile.xib in Resources */,
-				491952C21EC7947D00D68E38 /* SH101LogoSJR2.png in Resources */,
 				49AABEB71EAFC70D0003A90E /* MICHCmap.png in Resources */,
 				4996FF431EB6184A00CB9FE5 /* LICC logo long 500x100.png in Resources */,
 				495E80721EAE7BA100B4301A /* RMH.jpg in Resources */,
 				491952BE1EC78EEA00D68E38 /* SH101MDLobSmSoc.png in Resources */,
 				49A155841EB8C04B008CF0A1 /* NIRURefugee.jpg in Resources */,
 				492522041EA5613100071906 /* ChildPedDoc1.png in Resources */,
+				493BFD4A1ECB2A1D00523E2F /* SH101CARWide2.png in Resources */,
 				49AABEAE1EAFAAF70003A90E /* WICtable.png in Resources */,
 				4958697C1EC0B287000275F2 /* IAPDetailPic.png in Resources */,
 				49BA86171EB8FDD900AB6E3B /* HEAPtable.png in Resources */,
@@ -1327,6 +1335,7 @@
 				497860931EACEF920067E55A /* KFHTitleTableViewCell.xib in Resources */,
 				49DEB1561EABA4B7002E0ACA /* Health-Insurance.jpg in Resources */,
 				4980F0091EA54AE20085F115 /* Assets.xcassets in Resources */,
+				493BFD481ECB256700523E2F /* SH101SJLwide1.png in Resources */,
 				4980F0071EA54AE20085F115 /* Main.storyboard in Resources */,
 				495869781EC0B051000275F2 /* NIRUSubmenu.png in Resources */,
 				498E6FFC1EC3FD1500B6DA55 /* MainView.png in Resources */,
@@ -1346,6 +1355,7 @@
 				49BA86101EB8FCB400AB6E3B /* HEAPP5TableViewCell.swift in Sources */,
 				497ADB821EB95E0B00AD502C /* SNAP4TableViewCell.swift in Sources */,
 				49F1069E1EAFDC7A00843FC1 /* LargeHeaderCellFile.swift in Sources */,
+				491952C61EC89D4B00D68E38 /* RMHP3TableViewCell.swift in Sources */,
 				495B2A971EB2B8AC000A5C3F /* SCMHP1TableViewCell.swift in Sources */,
 				49BA861B1EB9129E00AB6E3B /* EAPP1TableViewCell.swift in Sources */,
 				49A9B1FF1EBA7100001E27AD /* NMTableViewController.swift in Sources */,
@@ -1360,6 +1370,7 @@
 				4996FF541EB6497100CB9FE5 /* PHTableViewController.swift in Sources */,
 				49A9B2051EBA7134001E27AD /* NMP3TableViewCell.swift in Sources */,
 				493E69301EB655F80014EA3B /* IWDRP1TableViewCell.swift in Sources */,
+				491952C81EC8A1AB00D68E38 /* WICP4TableViewCell.swift in Sources */,
 				49A1558A1EB8C26C008CF0A1 /* LASSP2TableViewCell.swift in Sources */,
 				49A1556F1EB7BF05008CF0A1 /* SNAPP3TableViewCell.swift in Sources */,
 				49FC78991EBA218B00815D1C /* CACCP2TableViewCell.swift in Sources */,
@@ -1453,6 +1464,7 @@
 				497ADB891EB972B100AD502C /* BRIAP2TableViewCell.swift in Sources */,
 				4996FF4F1EB638B000CB9FE5 /* LICADDTableViewController.swift in Sources */,
 				49FC78A01EBA2D4A00815D1C /* MRP2TableViewCell.swift in Sources */,
+				491952CA1EC8AB7F00D68E38 /* IAPP3TableViewCell.swift in Sources */,
 				49DEB1491EAB90F0002E0ACA /* HFITableViewController.swift in Sources */,
 				49A9B20E1EBA7739001E27AD /* GRP3TableViewCell.swift in Sources */,
 				497ADB851EB9728D00AD502C /* BRIATableViewController.swift in Sources */,

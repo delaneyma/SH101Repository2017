@@ -26,43 +26,46 @@ class AboutTableViewController: UITableViewController {
     // MARK: - Table view data source
 
     override func numberOfSections(in tableView: UITableView) -> Int {
-        return 1
+        return 2
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
-        return 7    }
+        if section == 0 {
+        return 1    }
+        else {
+            return 6
+        }}
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        if indexPath.row == 0 {
+        if indexPath.section == 0 && indexPath.row == 0 {
         let cell = tableView.dequeueReusableCell(withIdentifier: "AboutP1", for: indexPath) as! AboutP1TableViewCell
            cell.AboutP1Label.text = "Learn More About This App"
             return cell}
 
-        if indexPath.row == 1 {
+        if indexPath.section == 1 && indexPath.row == 0 {
             let cell = tableView.dequeueReusableCell(withIdentifier: "AboutP2", for: indexPath) as! AboutP2TableViewCell
             cell.AboutP2Label1.text = "What is 'Social Health 101'?"
             cell.AboutP2Label2.text = "SH101 is a mobile reference tool designed to help bridge the gap..."
             return cell}
-        if indexPath.row == 2 {
+        if indexPath.section == 1 && indexPath.row == 1 {
             let cell = tableView.dequeueReusableCell(withIdentifier: "AboutP3", for: indexPath) as! AboutP3TableViewCell
             cell.AboutP3Label.text = "How do I use this app?"
             return cell}
-        if indexPath.row == 3 {
+        if indexPath.section == 1 && indexPath.row == 2 {
             let cell = tableView.dequeueReusableCell(withIdentifier: "AboutP4", for: indexPath)as! AboutP4TableViewCell
             cell.AboutP4TitleLabel.text = "1. Choose a Category:"
             cell.AboutP4Image.image = UIImage(named: "MainView")
             cell.AboutP4Label.text = "First, use the main menu to select the category of assistance your patient may need or that you'd like to learn more about. The topics covered here span from legal aid to assistance with food insecurity, and more!"
             return cell}
-        if indexPath.row == 4 {
+        if indexPath.section == 1 && indexPath.row == 3 {
             let cell = tableView.dequeueReusableCell(withIdentifier: "AboutP4", for: indexPath) as! AboutP4TableViewCell
             cell.AboutP4TitleLabel.text = "2. Pick a Program:"
             cell.AboutP4Image.image = UIImage(named: "SubView")
             cell.AboutP4Label.text = "Next, navigate the SubMenus to see the different programs covered under the selected category. Tap any program title to see more information. You may be surprised at what is available, so explore!  "
             return cell}
-        if indexPath.row == 5 {
+        if indexPath.section == 1 && indexPath.row == 4 {
             let cell = tableView.dequeueReusableCell(withIdentifier: "AboutP4", for: indexPath) as! AboutP4TableViewCell
             cell.AboutP4TitleLabel.text = "3. Reference and Learn:"
             cell.AboutP4Image.image = UIImage(named: "DetailView")

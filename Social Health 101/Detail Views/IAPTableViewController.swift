@@ -43,7 +43,7 @@ class IAPTableViewController: UITableViewController {
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 2
+        return 3
     }
 
 
@@ -57,6 +57,10 @@ class IAPTableViewController: UITableViewController {
             cell.IAPP1ContLabel.text = "The mission of the IAP is to ensure that children in Suffolk County are fully immunized by their second birthday, and that all infants born of hepatitis B positive mothers are appropriately identified, treated and tracked.  To comply with this mission, the Department holds immunization clinics, conducts immunization audits in private provider's offices and nursery/day care centers, conducts educational programs for health care professionals and stakeholder members in the community and responds to immunization questions."
 
             return cell}
+        if indexPath.row == 2{
+            let cell = tableView.dequeueReusableCell(withIdentifier: "IAPP3", for: indexPath)as! IAPP3TableViewCell
+            return cell
+        }
             
         else{
             let cell = tableView.dequeueReusableCell(withIdentifier: "IAPP2", for: indexPath) as! IAPP2TableViewCell
