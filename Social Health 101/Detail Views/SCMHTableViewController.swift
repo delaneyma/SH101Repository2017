@@ -11,8 +11,8 @@ import UIKit
 class SCMHTableViewController: UITableViewController {
 
     var VCName = ""
-    var SCMHTitlesArray = ["What is it?", "Hours of operation:", "Contact information:"]
-    var SCMHContArray = ["Suffolk County Mental Health Clinics are clinics run with Suffolk County government funding to help provide subsidized care to county residents.", "All Clinics are held Monday through Thursday 9:00 AM to 9:00 PM and Friday 9:00 AM to 5:00 PM.", "Services are offered at the following locations: Brentwood Clinic 1841 Brentwood Road, Brentwood, (631) 853-7300; Farmingville Clinic, 15 Horseblock Place, Farmingville (631) 854-2552; Riverhead Clinic, County Center, Riverhead (631) 852-1440."]
+    var SCMHTitlesArray = ["What is it?", "Hours of operation:", "Contact information:", "", "", ""]
+    var SCMHContArray = ["Suffolk County Mental Health Clinics are clinics run with Suffolk County government funding to help provide SUBSIDIZED CARE to county residents.", "All Clinics are held Monday through Thursday 9:00 AM to 9:00 PM and Friday 9:00 AM to 5:00 PM.", "Services are offered at the following locations: Brentwood Clinic 1841 Brentwood Road, Brentwood, (631) 853-7300; Farmingville Clinic, 15 Horseblock Place, Farmingville (631) 854-2552; Riverhead Clinic, County Center, Riverhead (631) 852-1440.", "", "", ""]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -38,10 +38,27 @@ class SCMHTableViewController: UITableViewController {
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+       
+        if indexPath.row == 3 {
+            let cell = tableView.dequeueReusableCell(withIdentifier: "SCMHP2", for: indexPath) as! SCMHP2TableViewCell
+
+        return cell}
+        
+        if indexPath.row == 4 {
+            let cell = tableView.dequeueReusableCell(withIdentifier: "SCMHP3", for: indexPath) as! SCMHP3TableViewCell
+    
+        return cell}
+            
+        if indexPath.row == 5 {
+            let cell = tableView.dequeueReusableCell(withIdentifier: "SCMHP4", for: indexPath) as! SCMHP4TableViewCell
+        return cell}
+            
+        else {
         let cell = tableView.dequeueReusableCell(withIdentifier: "SCMHP1", for: indexPath) as! SCMHP1TableViewCell
         cell.SCMHTitleLabel.text = SCMHTitlesArray[indexPath.row]
         cell.SCMHContLabel.text = SCMHContArray[indexPath.row]
         return cell}
+    }
     
     
     

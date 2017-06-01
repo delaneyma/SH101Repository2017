@@ -40,15 +40,25 @@ class FFLTableViewController: UITableViewController {
 
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return FFLTitlesArray.count
+        return 3
     }
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
+        if indexPath.row == 0 {
         let cell = tableView.dequeueReusableCell(withIdentifier: "FFLP1", for: indexPath) as! FFLP1TableViewCell
         cell.FFLP1TitleLabel.text = FFLTitlesArray[indexPath.row]
         cell.FFLP1ContLabel.text = FFLContArray[indexPath.row]
-        return cell
+            return cell}
+        if indexPath.row == 1 {
+            let cell = tableView.dequeueReusableCell(withIdentifier: "FFLP2", for: indexPath) as! FFLP2TableViewCell
+    
+            return cell}
+        else {
+            let cell = tableView.dequeueReusableCell(withIdentifier: "FFLP3", for: indexPath) as! FFLP3TableViewCell
+         
+            return cell}        
     }
    
     
