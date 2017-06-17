@@ -24,6 +24,22 @@ class SBHOMEP2TableViewCell: UITableViewCell {
             UIApplication.shared.open(url as URL, options: [:])}
     }
     
+    
+    
+    @IBAction func SBHOMEP2LinkAction2(_ sender: Any) {
+        
+        if let phoneCallURL = URL(string: "telprompt://\(16312355281)") {
+            
+            let application:UIApplication = UIApplication.shared
+            if (application.canOpenURL(phoneCallURL)) {
+                application.open(phoneCallURL, options: [:], completionHandler: nil)}}
+        
+        
+    }
+    
+    
+    
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

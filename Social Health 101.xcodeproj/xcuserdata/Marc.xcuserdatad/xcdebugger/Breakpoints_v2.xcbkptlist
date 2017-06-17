@@ -25,46 +25,12 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Social Health 101/Detail Views/VIBSTableViewController.swift"
-            timestampString = "515383224.058453"
+            filePath = "Social Health 101/Main View/ResearchFiles/ConsentTask.swift"
+            timestampString = "516027902.890671"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "86"
-            endingLineNumber = "86"
-            landmarkName = "VIBSTableViewController"
-            landmarkType = "3">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Social_Health_101.VIBSTableViewController.LinkAction (sender : Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UIButton&gt;) -&gt; ()"
-                  moduleName = "Social Health 101"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/Marc/Desktop/App%20Design/Social%20Health%20101/Social%20Health%20101/Detail%20Views/VIBSTableViewController.swift"
-                  timestampString = "515375419.024168"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "82"
-                  endingLineNumber = "82"
-                  offsetFromSymbolStart = "38">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Social_Health_101.VIBSTableViewController.LinkAction (sender : Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UIButton&gt;) -&gt; ()"
-                  moduleName = "Social Health 101"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/Marc/Desktop/App%20Design/Social%20Health%20101/Social%20Health%20101/Detail%20Views/VIBSTableViewController.swift"
-                  timestampString = "515375419.032271"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "82"
-                  endingLineNumber = "82"
-                  offsetFromSymbolStart = "89">
-               </Location>
-            </Locations>
+            startingLineNumber = "16"
+            endingLineNumber = "16">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -73,12 +39,14 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Social Health 101/Main View/ResearchFiles/ConsentTask.swift"
-            timestampString = "516027902.890671"
+            filePath = "Social Health 101/Detail Views/LICADDTableViewController.swift"
+            timestampString = "518469800.213932"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "16"
-            endingLineNumber = "16">
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

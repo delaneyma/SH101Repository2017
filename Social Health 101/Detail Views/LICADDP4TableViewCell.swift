@@ -10,9 +10,17 @@ import UIKit
 
 class LICADDP4TableViewCell: UITableViewCell {
 
-    @IBOutlet weak var LICADDP4TitleLabel: UILabel!
+  
+    @IBAction func LICADDP4LinkAction(_ sender: Any) {
+        if let phoneCallURL = URL(string: "telprompt://\(15167472606 )") {
+            
+            let application:UIApplication = UIApplication.shared
+            if (application.canOpenURL(phoneCallURL)) {
+                application.open(phoneCallURL, options: [:], completionHandler: nil)}}
+
     
-    @IBOutlet weak var LICADDP4ContLabel: UILabel!
+    }
+    
     
     override func awakeFromNib() {
         super.awakeFromNib()

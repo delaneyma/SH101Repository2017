@@ -38,12 +38,10 @@ class VIBSTableViewController: UITableViewController {
     override func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }
-
-     let url = NSURL(string: "http://www.vibs.org/")
     
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 3
+        return 4
     }
 
 
@@ -51,43 +49,24 @@ class VIBSTableViewController: UITableViewController {
         if indexPath.row == 2 {
             let cell = tableView.dequeueReusableCell(withIdentifier: "VIBSP2", for: indexPath) as! VIBSP2TableViewCell
             cell.VIBSP2ContLabel.text = "Phone: (631)-360-3606  - (Open 24 hours a day, 7 days a week )"
-
-//            cell.VIBSLink.addTarget(self, action: #selector(LinkAction1), for: .touchUpInside)
-            
-//            cell.tapAction = { (cell) in
-//                UIApplication.shared.open(self.url! as URL, options: [:])
-//            }
-            
-//            
-//            cell.VIBSLink.addTarget(self, action: #selector(LinkAction(sender:)), for: .touchUpInside)
-            
-            
-            
-//           cell.tapAction = { if let url = URL(string: "http://www.vibs.org/") {
-//                            UIApplication.shared.open(url, options: [:])}}
-            
-//            cell.VIBSP2WebLink.addTarget(self, action:Selector("VIBSLinkAction"), for: UIControlEvents.touchUpInside)
             
             return cell}
+        
+        if indexPath.row == 3 {
+            let cell = tableView.dequeueReusableCell(withIdentifier: "VIBSP3", for: indexPath) as! VIBSP3TableViewCell
+            
+            return cell}
+
+            
         else {
             let cell = tableView.dequeueReusableCell(withIdentifier: "VIBSP1", for: indexPath) as! VIBSP1TableViewCell
             cell.VIBSP1TitleLabel.text = VIBSP1TitlesArray[indexPath.row]
             cell.VIBSP1ContLabel.text = VIBSP1ContArray[indexPath.row]
             return cell}
     }
-    
-//func LinkAction1 (sender: UIButton!) {
-//        if let url = URL(string: "http://www.vibs.org/"){
-//            UIApplication.shared.open(url)
-//        }}
 
     
-//   @IBAction func LinkAction (sender: UIButton!) {
-//        if let url = URL(string: "http://www.vibs.org/"){
-//        UIApplication.shared.open(url)
-//        }}
-//
-
+    
 
 
     //Mark: Make the Headers from the XIB File:

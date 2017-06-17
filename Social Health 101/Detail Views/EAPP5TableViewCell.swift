@@ -8,7 +8,20 @@
 
 import UIKit
 
+
 class EAPP5TableViewCell: UITableViewCell {
+    
+    
+    @IBAction func EAPP5LinkAction(_ sender: Any) {
+            if let phoneCallURL = URL(string: "telprompt://\(16318549936)") {
+                
+                let application:UIApplication = UIApplication.shared
+                if (application.canOpenURL(phoneCallURL)) {
+                    application.open(phoneCallURL, options: [:], completionHandler: nil)}}
+    }
+    
+    
+    
     @IBOutlet weak var EAPP5TitleLabel: UILabel!
     @IBOutlet weak var EAPP5ContLabel1: UILabel!
     @IBOutlet weak var EAPP5ContLabel2: UILabel!

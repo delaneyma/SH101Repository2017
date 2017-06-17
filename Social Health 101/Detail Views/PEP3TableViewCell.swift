@@ -10,6 +10,19 @@ import UIKit
 
 class PEP3TableViewCell: UITableViewCell {
 
+    
+    @IBAction func PEP3LinkAction(_ sender: Any) {
+        if let phoneCallURL = URL(string: "telprompt://\(16314446050)") {
+            
+            let application:UIApplication = UIApplication.shared
+            if (application.canOpenURL(phoneCallURL)) {
+                application.open(phoneCallURL, options: [:], completionHandler: nil)}}
+    }
+    
+    
+    
+    
+    
     @IBOutlet weak var PEP3TitleLabel: UILabel!
     @IBOutlet weak var PEP3ContLabel: UILabel!
     

@@ -11,7 +11,25 @@ import UIKit
 class LIADMP3TableViewCell: UITableViewCell {
 
     @IBOutlet weak var LIADMP3TitleLabel: UILabel!
-    @IBOutlet weak var LIADMP3ContLabel: UILabel!
+
+    
+    
+
+    
+    @IBAction func LIADMP3LinkAction1(_ sender: Any) {
+    if let phoneCallURL = URL(string: "telprompt://\(16316668833)") {
+        
+        let application:UIApplication = UIApplication.shared
+        if (application.canOpenURL(phoneCallURL)) {
+            application.open(phoneCallURL, options: [:], completionHandler: nil)}}
+    }
+    
+    
+    @IBAction func LIADMP3LinkAction2(_ sender: Any) {
+    if let url = NSURL(string: "http://www.liadv.org/") {
+        UIApplication.shared.open(url as URL, options: [:])}
+    }
+    
     
     
     override func awakeFromNib() {

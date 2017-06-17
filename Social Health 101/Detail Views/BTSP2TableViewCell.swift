@@ -9,7 +9,7 @@
 import UIKit
 
 class BTSP2TableViewCell: UITableViewCell {
-
+    
     @IBOutlet weak var BTSP2ContLabel: UILabel!
     @IBOutlet weak var BTSP2TitleLabel: UILabel!
     override func awakeFromNib() {

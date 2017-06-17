@@ -13,8 +13,18 @@ class MRP3TableViewCell: UITableViewCell {
     @IBOutlet weak var MRP3TitleLabel: UILabel!
     @IBOutlet weak var MRP3ContLabel1: UILabel!
     @IBOutlet weak var MRP3ContLabel2: UILabel!
-    @IBOutlet weak var MRP3Link: UIButton!
+
     
+    @IBAction func MRP3LinkAction2(_ sender: Any) {
+        if let phoneCallURL = URL(string: "telprompt://\(16312312220)") {
+            
+            let application:UIApplication = UIApplication.shared
+            if (application.canOpenURL(phoneCallURL)) {
+                application.open(phoneCallURL, options: [:], completionHandler: nil)}}
+    }
+    
+        
+        
     @IBAction func MRP3LinkAction(_ sender: Any) {
         if let url = NSURL(string: "http://www.maketheroad.org/") {
             UIApplication.shared.open(url as URL, options: [:])}

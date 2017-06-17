@@ -10,7 +10,10 @@ import UIKit
 
 class LICADDP2TableViewCell: UITableViewCell {
 
-    @IBOutlet weak var LICADDP2ContLabel: UILabel!
+    @IBOutlet weak var LICADDP2TitleLabel: UILabel!
+    
+    
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

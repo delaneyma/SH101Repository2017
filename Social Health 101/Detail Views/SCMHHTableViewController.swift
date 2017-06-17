@@ -34,7 +34,7 @@ class SCMHHTableViewController: UITableViewController {
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 7
+        return 8
     }
 
     
@@ -50,6 +50,11 @@ class SCMHHTableViewController: UITableViewController {
             cell.SCMHHP3TitleLabel.text = "Contact Information:"
             cell.SCMHHP3ContLabel.text = "Application for all mental health housing in Suffolk County must be submitted to the Single Point of Access (SPA). The SPA may be reached at (631) 231-3562."
             return cell}
+        
+        if indexPath.row == 7 {
+            let cell = tableView.dequeueReusableCell(withIdentifier: "SCMHHP4", for: indexPath) as! SCMHHP4TableViewCell
+            return cell}
+        
         else{
             let cell = tableView.dequeueReusableCell(withIdentifier: "SCMHHP2", for: indexPath) as! SCMHHP2TableViewCell
             cell.SCMHHP2TitleLabel.text = SCMHHP2TitleArray[indexPath.row]

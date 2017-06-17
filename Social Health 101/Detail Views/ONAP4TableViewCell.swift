@@ -9,6 +9,10 @@
 import UIKit
 
 class ONAP4TableViewCell: UITableViewCell {
+    
+    
+    
+    
     @IBOutlet weak var ONAP4TitleLabel: UILabel!
     @IBOutlet weak var ONAP4ContLabel: UILabel!
     @IBOutlet weak var ONAP4Link: UIButton!
@@ -17,6 +21,18 @@ class ONAP4TableViewCell: UITableViewCell {
         if let url = NSURL(string: "https://www.newamericans.ny.gov/opportunity/opportunity_centers.html") {
             UIApplication.shared.open(url as URL, options: [:])}
     }
+    
+    
+    @IBAction func ONAP4LinkAction2(_ sender: Any) {
+    
+        if let phoneCallURL = URL(string: "telprompt://\(18005667636)") {
+            
+            let application:UIApplication = UIApplication.shared
+            if (application.canOpenURL(phoneCallURL)) {
+                application.open(phoneCallURL, options: [:], completionHandler: nil)}}
+    
+    }
+    
     
     
     override func awakeFromNib() {

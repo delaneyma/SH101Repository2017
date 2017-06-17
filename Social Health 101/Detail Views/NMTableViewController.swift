@@ -48,9 +48,8 @@ class NMTableViewController: UITableViewController {
             return cell}
         else{
             let cell = tableView.dequeueReusableCell(withIdentifier: "NMP3", for: indexPath) as! NMP3TableViewCell
-            cell.NMP3TitleLabel.text = "What is it?"
-            cell.NMP3ContLabel1.text = "Toll-free hotline: (800)503-6897 "
-            cell.NMP3ContLabel3.text = "Visit the website:"
+            cell.NMP3TitleLabel.text = "Contact Information:"
+            
             return cell}
     }
     

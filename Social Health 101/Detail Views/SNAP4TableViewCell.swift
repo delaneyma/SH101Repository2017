@@ -9,6 +9,21 @@
 import UIKit
 
 class SNAP4TableViewCell: UITableViewCell {
+    
+    
+    
+    @IBAction func SNAP4LinkAction1(_ sender: Any) {
+            if let phoneCallURL = URL(string: "telprompt://\(16318549936)") {
+                
+                let application:UIApplication = UIApplication.shared
+                if (application.canOpenURL(phoneCallURL)) {
+                    application.open(phoneCallURL, options: [:], completionHandler: nil)}}
+        }
+
+    
+    
+    
+    
     @IBOutlet weak var SNAP4TitleLabel: UILabel!
     @IBOutlet weak var SNAP4ContLabel1: UILabel!
     @IBOutlet weak var SNAP4ContLabel2: UILabel!

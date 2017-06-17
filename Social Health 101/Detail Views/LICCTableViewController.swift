@@ -11,7 +11,7 @@ import UIKit
 class LICCTableViewController: UITableViewController {
 
     var VCName = ""
-    var LICCP2ContArray = ["", "Through their 24-hour, seven-day-a-week, crisis hotlines and live online and mobile chat, they provide short-term crisis counseling, information, and referrals on a wide range of issues, including: ", "Depression- Family Communication- Sexual Identity- Substance Abuse- Child Abuse- Domestic Violence- Easting Disorders- Sexual Assault- STDs/AIDS- Suicide Prevention- Runaway Youth- Gender Identity", ""]
+    var LICCP2ContArray = ["", "Through their 24-hour, seven-day-a-week, crisis hotlines and live online and mobile chat, they provide short - term crisis counseling, information, and referrals on a wide range of issues, including: ", "Depression - Family Communication - Sexual Identity - Substance Abuse - Child Abuse - Domestic Violence - Easting Disorders - Sexual Assault - STDs/AIDS - Suicide Prevention - Runaway Youth - Gender Identity", ""]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,7 +30,7 @@ class LICCTableViewController: UITableViewController {
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 4
+        return 6
     }
 
     
@@ -47,9 +47,17 @@ class LICCTableViewController: UITableViewController {
         if indexPath.row == 3 {
             let cell = tableView.dequeueReusableCell(withIdentifier: "LICCP3", for: indexPath) as! LICCP3TableViewCell
             cell.LICCP3TitleLabel.text = "Contact information:"
-            cell.LICCP3ContLabel.text = "Long Island Crisis Center: 2740 Martin Avenue, Bellmore, NY   - 24/7 Hotline: 516-826-0244  http://longislandcrisiscenter.org/ "
+            cell.LICCP3ContLabel.text = "Long Island Crisis Center: 2740 Martin Avenue, Bellmore, NY   -   24/7 Hotline: 516-826-0244  -   longislandcrisiscenter.org "
             return cell}
     
+        if indexPath.row == 4 {
+            let cell = tableView.dequeueReusableCell(withIdentifier: "LICCP4", for: indexPath) as! LICCP4TableViewCell
+            return cell}
+            
+        if indexPath.row == 5 {
+            let cell = tableView.dequeueReusableCell(withIdentifier: "LICCP5", for: indexPath) as! LICCP5TableViewCell
+                       return cell}
+            
         else {
             let cell = tableView.dequeueReusableCell(withIdentifier: "LICCP2", for: indexPath) as! LICCP2TableViewCell
             cell.LICCP2ContLabel.text = LICCP2ContArray[indexPath.row]

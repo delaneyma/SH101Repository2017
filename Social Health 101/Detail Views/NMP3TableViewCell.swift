@@ -10,8 +10,17 @@ import UIKit
 
 class NMP3TableViewCell: UITableViewCell {
     @IBOutlet weak var NMP3TitleLabel: UILabel!
-    @IBOutlet weak var NMP3ContLabel1: UILabel!
-    @IBOutlet weak var NMP3ContLabel3: UILabel!
+   
+    
+    @IBAction func NMP3LinkAction2(_ sender: Any) {
+        if let phoneCallURL = URL(string: "telprompt://\(18005036897)") {
+            
+            let application:UIApplication = UIApplication.shared
+            if (application.canOpenURL(phoneCallURL)) {
+                application.open(phoneCallURL, options: [:], completionHandler: nil)}}
+
+    }
+    
 
     @IBOutlet weak var NMP3Link: UIButton!
     

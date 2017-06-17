@@ -49,7 +49,7 @@ class LASSTableViewController: UITableViewController {
             let cell = tableView.dequeueReusableCell(withIdentifier: "LASSP2", for: indexPath) as! LASSP2TableViewCell
             cell.LASSP2TitleLabel.text = "Contact information:"
             cell.LASSP2ContLabel.text = "John P. Cohalan, Jr. Courthouse, 400 Carleton Ave, 4th Floor, Central Islip, NY 11722; email:admin@sclas.org"
-            cell.LASSP2ContLabel2.text = "By Phone: District Court:(631)853-5212, Fx: (631) 853-4336 - Family Court: (631) 853-4343 - Children's Law Bureau: (631) 439-2450 - Riverhead Office: (631) 852-1650."
+            cell.LASSP2ContLabel2.text = "By Phone:"
             
         return cell}
         

@@ -34,24 +34,34 @@ class PHTableViewController: UITableViewController {
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 5
+        return 7
     }
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+       
         if indexPath.row == 4 {
             let cell = tableView.dequeueReusableCell(withIdentifier: "PHP2", for: indexPath) as! PHP2TableViewCell
             cell.PHP2TitleLabel.text = "Contact information:"
             cell.PHP2ContLabel.text = "Contact 1 888 671 9392 for more information."
-            return cell
-        }
+            return cell}
+        
         if indexPath.row == 3 {
             let cell = tableView.dequeueReusableCell(withIdentifier: "PHP3", for: indexPath)as! PHP3TableViewCell
-            cell.PHP3ContLabel.text = "Self Payment: Phoenix House also accepts self-payment, with different rates for services depending on the program. As a not-for-profit provider, they believe strongly in making treatment available to those who need it by providing state-, county-, and Medicaid-funded services to qualifying individuals. "
+            cell.PHP3ContLabel.text = "Self Payment: Phoenix House also accepts self-payment, with different rates for services depending on the program. As a not-for-profit provider, they believe strongly in making treatment available to those who need it by providing state-, county-, and Medicaid-funded services to qualifying individuals."
+            return cell}
             
             
-            return cell
-        }
+        if indexPath.row == 5 {
+            let cell = tableView.dequeueReusableCell(withIdentifier: "PHP4", for: indexPath) as! PHP4TableViewCell
+            return cell}
+            
+            
+        if indexPath.row == 6 {
+            let cell = tableView.dequeueReusableCell(withIdentifier: "PHP5", for: indexPath) as! PHP5TableViewCell
+            return cell}
+            
+            
         else {
             let cell = tableView.dequeueReusableCell(withIdentifier: "PHP1", for: indexPath)as! PHP1TableViewCell
             cell.PHP1TitleLabel.text = PHP1TitlesArray[indexPath.row]
@@ -68,7 +78,7 @@ class PHTableViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         let HeaderView = Bundle.main.loadNibNamed("THeaderCellFile", owner: self, options: nil)?.first as! THeaderCellFile
-        HeaderView.HeaderLabel.text = "Phoenix House"
+        HeaderView.HeaderLabel.text = "Phoenix House - Rehabilitation Support"
         return HeaderView
     }
     

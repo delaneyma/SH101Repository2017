@@ -32,7 +32,7 @@ class NSLSTableViewController: UITableViewController {
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 2
+        return 3
     }
 
     
@@ -46,6 +46,11 @@ class NSLSTableViewController: UITableViewController {
             cell.NSLSP1ContLabel2.text = "NSLS is dedicated to providing equal access to basic human rights and services through provision of high quality legal representation, public information and community advocacy training to ensure that low income, disabled and disadvantaged individuals have equal access to the civil justice system on Long Island."
             cell.NSLSP1ContLabel3.text = "The staff is comprised of attorneys, paralegals, social workers and support staff. The social work component is a unique feature of the program and is based on the recognition that some clients may need special support and services to manage and deal effectively with the legal system."
             
+            return cell}
+            
+            
+        if indexPath.row == 2 {
+            let cell = tableView.dequeueReusableCell(withIdentifier: "NSLSP3", for: indexPath) as! NSLSP3TableViewCell
             return cell}
             
         else{

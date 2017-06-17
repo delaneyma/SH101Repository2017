@@ -11,8 +11,8 @@ import UIKit
 class DHHTableViewController: UITableViewController {
 
     var VCName = ""
-    var DHHP3TitlesArray = ["P1", "P2", "Hudson River Healthcare, Inc.", "North Shore - Long Island Jewish Health Home"]
-    var DHHP3ContArray = ["P1", "P2", "Main Contact: Kathleen Clay, 1-888-980-8410, kclay@hrhcare.org • Alternate Contact: Linda Assante, 914-425-0891, lassante@hrhcare.org • Referral Contact: Niaisha Yates, 1-888-980-8410,  Nyates@hrhcare.org • Member Referral Number: 1-888-980-8410, http://www.hrhcare.org/", "Main Contact: Anne Ferguson, 516-876-5450, aferguso@northwell.edu • Alternate Contact: Erika Bentley-Ammonds, RN, 516-876-5228, ebentleyam@northwell.edu • Referral Contact: Jeanne Losquadro, 516-876-5310, jlosquad@northwell.edu • Referral Contact: William Wischhusen, 516-876-5457, wwischhu@northwell.edu • Member Referral Number: 888-680-6501"]
+    var DHHP3TitlesArray = ["P1", "P2", "Hudson River Healthcare, Inc.", "", "North Shore - Long Island Jewish Health Home", ""]
+    var DHHP3ContArray = ["P1", "P2", "Main Contact: Kathleen Clay, 1-888-980-8410, kclay@hrhcare.org • Alternate Contact: Linda Assante, 914-425-0891, lassante@hrhcare.org • Referral Contact: Niaisha Yates, 1-888-980-8410,  Nyates@hrhcare.org • Member Referral Number: 1-888-980-8410, http://www.hrhcare.org/", "",  "Main Contact: Anne Ferguson, 516-876-5450, aferguso@northwell.edu • Alternate Contact: Erika Bentley-Ammonds, RN, 516-876-5228, ebentleyam@northwell.edu • Referral Contact: Jeanne Losquadro, 516-876-5310, jlosquad@northwell.edu • Referral Contact: William Wischhusen, 516-876-5457, wwischhu@northwell.edu • Member Referral Number: 888-680-6501", ""]
     
     
     override func viewDidLoad() {
@@ -32,7 +32,7 @@ class DHHTableViewController: UITableViewController {
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 4
+        return 6
     }
 
     
@@ -47,6 +47,18 @@ class DHHTableViewController: UITableViewController {
             let cell = tableView.dequeueReusableCell(withIdentifier: "DHHP2", for: indexPath)as! DHHP2TableViewCell
             cell.DHHP2TitleLabel.text = "Contact information:"
             return cell}
+            
+        if indexPath.row == 3 {
+            let cell = tableView.dequeueReusableCell(withIdentifier: "DHHP4", for: indexPath)as! DHHP4TableViewCell
+       
+            return cell}
+            
+        if indexPath.row == 5 {
+            let cell = tableView.dequeueReusableCell(withIdentifier: "DHHP5", for: indexPath)as! DHHP5TableViewCell
+
+            return cell}
+            
+            
         else {
             let cell = tableView.dequeueReusableCell(withIdentifier: "DHHP3", for: indexPath) as! DHHP3TableViewCell
             cell.DHHP3TitleLabel.text = DHHP3TitlesArray[indexPath.row]

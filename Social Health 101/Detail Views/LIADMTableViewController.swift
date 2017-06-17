@@ -55,7 +55,6 @@ class LIADMTableViewController: UITableViewController {
         else {
             let cell = tableView.dequeueReusableCell(withIdentifier: "LIADMP3", for: indexPath) as! LIADMP3TableViewCell
             cell.LIADMP3TitleLabel.text = "Contact information:"
-            cell.LIADMP3ContLabel.text = "24-Hour Hotline: (631)-666-8833  -  Online:http://www.liadv.org/"
             return cell
         }
         

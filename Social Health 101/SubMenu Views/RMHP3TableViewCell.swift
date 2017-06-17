@@ -16,10 +16,7 @@ class RMHP3TableViewCell: UITableViewCell {
             
             let application:UIApplication = UIApplication.shared
             if (application.canOpenURL(phoneCallURL)) {
-                application.open(phoneCallURL, options: [:], completionHandler: nil)
-            }
-        }
-        
+                application.open(phoneCallURL, options: [:], completionHandler: nil)}}
     }
     
     

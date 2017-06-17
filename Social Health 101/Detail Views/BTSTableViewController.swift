@@ -29,7 +29,7 @@ class BTSTableViewController: UITableViewController {
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 2
+        return 3
     }
 
    
@@ -41,10 +41,15 @@ class BTSTableViewController: UITableViewController {
         cell.BTSP1ContLabel.text = "Brighter Tomorrows provides shelter, counseling and advocacy for victims of domestic violence. They can accommodate 19 women and children. Offers case management, court advocacy, Department of Social Services advocacy, and group/individual counseling for both adults and children. They have a child witness/victim of domestic violence program as well."
             return cell}
         
+        
+        if indexPath.row == 2{
+            let cell = tableView.dequeueReusableCell(withIdentifier: "BTSP3", for: indexPath) as! BTSP3TableViewCell
+            return cell}
+            
         else{
             let cell = tableView.dequeueReusableCell(withIdentifier: "BTSP2", for: indexPath) as! BTSP2TableViewCell
         cell.BTSP2TitleLabel.text = "Contact Information:"
-            cell.BTSP2ContLabel.text = "24-Hour Hotline, 7 days a week: (631) 395-1800 - Office Ph: (631) 395-1801 or (631) 395-3116  -- E-mail: info@brightertomorrowsinc.org -- Website: www.brightertomorrowsinc.org"
+            cell.BTSP2ContLabel.text = "24-Hour Hotline, 7 days a week: (631) 395-1800 - Office Ph: (631) 395-1801 or (631) 395-3116  -- E-mail: info@brightertomorrowsinc.org"
             return cell}
         }
    

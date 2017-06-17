@@ -35,12 +35,20 @@ class SPCMTableViewController: UITableViewController {
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 2
+        return 3
     }
 
    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-            let cell = tableView.dequeueReusableCell(withIdentifier: "SPCMP1", for: indexPath)as! SPCMP1TableViewCell
+        
+        
+        if indexPath.row == 2 {
+            let cell = tableView.dequeueReusableCell(withIdentifier: "SPCMP2", for: indexPath)as! SPCMP2TableViewCell
+            return cell
+  
+        }
+        
+        let cell = tableView.dequeueReusableCell(withIdentifier: "SPCMP1", for: indexPath)as! SPCMP1TableViewCell
         cell.SPCMP1TitleLabel.text = SPCMP1TitlesArray[indexPath.row]
         cell.SPCMP1ContLabel.text = SPCMP1ContArray[indexPath.row]
         return cell

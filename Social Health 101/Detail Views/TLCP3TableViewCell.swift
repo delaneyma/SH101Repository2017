@@ -10,6 +10,16 @@ import UIKit
 
 class TLCP3TableViewCell: UITableViewCell {
 
+    
+    @IBAction func TLCP3LinkAction1(_ sender: Any) {
+        if let phoneCallURL = URL(string: "telprompt://\(16317617470)") {
+            let application:UIApplication = UIApplication.shared
+            if (application.canOpenURL(phoneCallURL)) {
+                application.open(phoneCallURL, options: [:], completionHandler: nil)}}
+    }
+    
+    
+    
     @IBOutlet weak var TLCP3TitleLabel: UILabel!
     @IBOutlet weak var TLCP3ContLabel: UILabel!
     override func awakeFromNib() {

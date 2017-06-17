@@ -11,8 +11,8 @@ import UIKit
 class HEAPTableViewController: UITableViewController {
 
     var VCName = ""
-    var HEAPP6TitlesArray = ["P1", "P2", "P3", "P4", "P5", "Suffolk County Department of Social Services", "Suffolk County Office for the Aging", "After Hours Emergency Contact" ]
-    var HEAPP6ContArray = ["P1", "P2", "P3", "P4", "P5", "Days Open: Monday - Friday; Phone: (631) 853-8825; Address: PO Box 18100, 200 Wireless Boulevard, Hauppauge, NY 11788", "Days Open: Monday - Friday, Phone: (631) 853-8326, Address: PO Box 6100, 200 Wireless Boulevard, Hauppauge, NY 11788 ", "Emergency Services Phone: (631) 853-8326, "]
+    var HEAPP6TitlesArray = ["P1", "P2", "P3", "P4", "P5", "Suffolk County Department of Social Services", "*i6*", "Suffolk County Office for the Aging","*i8*", "After Hours Emergency Contact", "*i10*" ]
+    var HEAPP6ContArray = ["P1", "P2", "P3", "P4", "P5", "Days Open: Monday - Friday; Phone: (631) 853-8825; Address: PO Box 18100, 200 Wireless Boulevard, Hauppauge, NY 11788","*i6*" , "Days Open: Monday - Friday, Phone: (631) 853-8326, Address: PO Box 6100, 200 Wireless Boulevard, Hauppauge, NY 11788 ", "*i8*", "Emergency Services Phone: (631) 853-8326,", "*i10*"]
     
     
     override func viewDidLoad() {
@@ -36,7 +36,7 @@ class HEAPTableViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 8
+        return 11
     }
 
    
@@ -66,6 +66,18 @@ class HEAPTableViewController: UITableViewController {
             let cell = tableView.dequeueReusableCell(withIdentifier: "HEAPP5", for: indexPath) as! HEAPP5TableViewCell
             cell.HEAPP5TitleLabel.text = "Contact information:"
             return cell}
+        if indexPath.row == 6 {
+            let cell = tableView.dequeueReusableCell(withIdentifier: "HEAPP7", for: indexPath) as! HEAPP7TableViewCell
+            return cell}
+
+        if indexPath.row == 8 {
+            let cell = tableView.dequeueReusableCell(withIdentifier: "HEAPP8", for: indexPath) as! HEAPP8TableViewCell
+            return cell}
+
+        if indexPath.row == 10 {
+            let cell = tableView.dequeueReusableCell(withIdentifier: "HEAPP9", for: indexPath) as! HEAPP9TableViewCell
+            return cell}
+
         else {
            let cell = tableView.dequeueReusableCell(withIdentifier: "HEAPP6", for: indexPath) as! HEAPP6TableViewCell
             cell.HEAPP6TitleLabel.text = HEAPP6TitlesArray[indexPath.row]

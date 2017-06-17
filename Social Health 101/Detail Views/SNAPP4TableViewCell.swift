@@ -9,7 +9,22 @@
 import UIKit
 
 class SNAPP4TableViewCell: UITableViewCell {
+   
+    
+    
+    
+    @IBAction func SNAPP4LinkAction1(_ sender: Any) {
+        
+        if let phoneCallURL = URL(string: "telprompt://\(18004323009)") {
+            
+            let application:UIApplication = UIApplication.shared
+            if (application.canOpenURL(phoneCallURL)) {
+                application.open(phoneCallURL, options: [:], completionHandler: nil)}}
+    }
 
+    
+    
+    
     @IBOutlet weak var SNAPP4TitleLabel: UILabel!
     
     @IBOutlet weak var SNAPP4ContLabel1: UILabel!
