@@ -35,9 +35,8 @@ class MainMenuTableViewController: UITableViewController {
     
     
     func ShowReviewPrompt() {
-        //        if (numberoflaunches == 50 || numberoflaunches == 75 || numberoflaunches == 100){
-        if (numberoflaunches > 0){
-            let alert = UIAlertController(title: "Please Take Our Survey!", message: "Thanks for using SH101! As a frequent user, please consider participating in our research survey (5 questions - aprox. 2 minutes). ", preferredStyle: UIAlertControllerStyle.alert)
+        if (numberoflaunches == 10 || numberoflaunches == 20 || numberoflaunches == 30){
+            let alert = UIAlertController(title: "Please Take Our Survey!", message: "Thanks for using SH101! As a frequent user, please participate in our research survey (about 5 questions - less than 2 minutes). ", preferredStyle: UIAlertControllerStyle.alert)
             
             // add the actions (buttons) - IF you click "Survey -- then do these:
             alert.addAction(UIAlertAction(title: "Survey", style: UIAlertActionStyle.default, handler: { action in

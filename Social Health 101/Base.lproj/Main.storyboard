@@ -7371,7 +7371,7 @@
                                             <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                             <state key="normal" title="Call the Scheduling Hotline"/>
                                             <connections>
-                                                <action selector="SBHOMEP2LinkAction:" destination="V0h-Rf-I0x" eventType="touchUpInside" id="g38-DH-gv8"/>
+                                                <action selector="SBHOMEP2LinkAction2:" destination="V0h-Rf-I0x" eventType="touchUpInside" id="kvS-58-7GF"/>
                                             </connections>
                                         </button>
                                         <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6SF-Aa-Whf" userLabel="http://www.maketheroad.org/">
@@ -7379,8 +7379,7 @@
                                             <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                             <state key="normal" title="Visit the SBHome Website"/>
                                             <connections>
-                                                <action selector="SBHOMEP2LinkAction2:" destination="V0h-Rf-I0x" eventType="touchUpInside" id="Ze4-a1-LV9"/>
-                                                <action selector="SBHOMEP2LinkAction:" destination="V0h-Rf-I0x" eventType="touchUpInside" id="4fK-3N-Vfg"/>
+                                                <action selector="SBHOMEP2LinkAction:" destination="V0h-Rf-I0x" eventType="touchUpInside" id="qbS-zd-7hn"/>
                                             </connections>
                                         </button>
                                     </subviews>
@@ -7406,7 +7405,6 @@
                                 <connections>
                                     <outlet property="SBHOMEP2ContLabel1" destination="Noo-mJ-lEZ" id="nYt-Un-E4Z"/>
                                     <outlet property="SBHOMEP2ContLabel2" destination="VHh-0d-Wqv" id="aLG-df-PKC"/>
-                                    <outlet property="SBHOMEP2Link" destination="VvR-jP-owt" id="io7-CG-kkJ"/>
                                     <outlet property="SBHOMEP2TitleLabel" destination="0DS-q2-8c5" id="uhV-NH-apD"/>
                                 </connections>
                             </tableViewCell>
@@ -7743,7 +7741,7 @@
                         <color key="backgroundColor" red="0.72941176470000002" green="0.34509803919999998" blue="0.35686274509999999" alpha="1" colorSpace="calibratedRGB"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="AboutP1" rowHeight="357" id="TuU-sk-bCw" customClass="AboutP1TableViewCell" customModule="Social_Health_101" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="56" width="375" height="357"/>
+                                <rect key="frame" x="0.0" y="55.5" width="375" height="357"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="TuU-sk-bCw" id="cbx-ha-Azx">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="356"/>
@@ -7776,11 +7774,11 @@
                                     <outlet property="AboutP1Label" destination="tBx-TX-flx" id="71a-3s-0mW"/>
                                 </connections>
                             </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="AboutP2" rowHeight="142" id="foE-YR-OfZ" customClass="AboutP2TableViewCell" customModule="Social_Health_101" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="413" width="375" height="142"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="AboutP2" rowHeight="142" id="foE-YR-OfZ" customClass="AboutP2TableViewCell" customModule="Social_Health_101" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="412.5" width="375" height="142"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="foE-YR-OfZ" id="PdM-wf-Rt5">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="141"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="141.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Proto1 Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9sc-hw-fxq">
@@ -7817,7 +7815,7 @@
                                 </connections>
                             </tableViewCell>
                             <tableViewCell clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="AboutP3" rowHeight="43" id="Ibq-N4-Rml" customClass="AboutP3TableViewCell" customModule="Social_Health_101" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="555" width="375" height="43"/>
+                                <rect key="frame" x="0.0" y="554.5" width="375" height="43"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Ibq-N4-Rml" id="BmI-wR-Kix">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="42"/>
@@ -7842,11 +7840,11 @@
                                     <outlet property="AboutP3Label" destination="f8T-nw-JeT" id="xki-Jj-IBf"/>
                                 </connections>
                             </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="AboutP4" rowHeight="295" id="0jq-Cb-WWq" customClass="AboutP4TableViewCell" customModule="Social_Health_101" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="598" width="375" height="295"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="AboutP4" rowHeight="295" id="0jq-Cb-WWq" customClass="AboutP4TableViewCell" customModule="Social_Health_101" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="597.5" width="375" height="295"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="0jq-Cb-WWq" id="ysd-5D-7VZ">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="294"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="294.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MainView.png" translatesAutoresizingMaskIntoConstraints="NO" id="ZHB-9d-DSb">
@@ -7902,7 +7900,7 @@
                                 </connections>
                             </tableViewCell>
                             <tableViewCell clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="AboutP5" rowHeight="91" id="eGw-eO-jl5" customClass="AboutP5TableViewCell" customModule="Social_Health_101" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="893" width="375" height="91"/>
+                                <rect key="frame" x="0.0" y="892.5" width="375" height="91"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="eGw-eO-jl5" id="STd-Qf-3iF">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="90"/>

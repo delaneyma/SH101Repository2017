@@ -15,9 +15,7 @@ class SBHOMEP2TableViewCell: UITableViewCell {
     @IBOutlet weak var SBHOMEP2ContLabel1: UILabel!
     
     @IBOutlet weak var SBHOMEP2ContLabel2: UILabel!
-    
-    @IBOutlet weak var SBHOMEP2Link: UIButton!
-    
+
     
     @IBAction func SBHOMEP2LinkAction(_ sender: Any) {
         if let url = NSURL(string: "http://www.stonybrookhome.com") {

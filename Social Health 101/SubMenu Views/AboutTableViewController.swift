@@ -47,7 +47,7 @@ class AboutTableViewController: UITableViewController {
         if indexPath.section == 1 && indexPath.row == 0 {
             let cell = tableView.dequeueReusableCell(withIdentifier: "AboutP2", for: indexPath) as! AboutP2TableViewCell
             cell.AboutP2Label1.text = "What is 'Social Health 101'?"
-            cell.AboutP2Label2.text = "SH101 is a mobile reference tool designed to help bridge the gap..."
+            cell.AboutP2Label2.text = "SH101 is a mobile reference tool designed to help medical professionals connect their patients with the social support programs they may need. Now more than ever, your “assessment and plan” as a health care provider has to be socially conscious. In the current landscape where a person’s race, culture, or socioeconomic status has been shown to directly influence their health outcomes, we don’t have to convince most providers that the “social determinants of health” are incredibly important. Our observation is that most clinicians have the desire to deliver comprehensive and socially impactful health care, but many of them lack the 'know-how' to deliver that care. Enter 'Social Health 101,' the app. #SH101 is a mobile reference tool aimed at bridging the gap between talking about and practicing socially conscious health care. Through condensed and easy-to-understand synopsis pages, SH101 compiles, organizes, and teaches both what resources are available and what you need to know to use those resources to better take care of your most vulnerable patients."
             return cell}
         if indexPath.section == 1 && indexPath.row == 1 {
             let cell = tableView.dequeueReusableCell(withIdentifier: "AboutP3", for: indexPath) as! AboutP3TableViewCell
