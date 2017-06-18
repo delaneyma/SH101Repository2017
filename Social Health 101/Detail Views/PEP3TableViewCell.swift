@@ -12,7 +12,7 @@ class PEP3TableViewCell: UITableViewCell {
 
     
     @IBAction func PEP3LinkAction(_ sender: Any) {
-        if let phoneCallURL = URL(string: "telprompt://\(16314446050)") {
+        if let phoneCallURL = URL(string: "telprompt://\(16314446050 as Int64)") {
             
             let application:UIApplication = UIApplication.shared
             if (application.canOpenURL(phoneCallURL)) {

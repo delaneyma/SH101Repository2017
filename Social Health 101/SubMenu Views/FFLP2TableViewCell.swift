@@ -11,7 +11,7 @@ import UIKit
 class FFLP2TableViewCell: UITableViewCell {
 
     @IBAction func FFLP2LinkAction(_ sender: Any) {
-        if let phoneCallURL = URL(string: "telprompt://\(16312653300)") {
+        if let phoneCallURL = URL(string: "telprompt://\(16312653300 as Int64)") {
             
             let application:UIApplication = UIApplication.shared
             if (application.canOpenURL(phoneCallURL)) {

@@ -12,7 +12,7 @@ class PHP4TableViewCell: UITableViewCell {
 
     
     @IBAction func PHP4LinkAction(_ sender: Any) {
-    if let phoneCallURL = URL(string: "telprompt://\(18886719392)") {
+    if let phoneCallURL = URL(string: "telprompt://\(18886719392 as Int64)") {
         
         let application:UIApplication = UIApplication.shared
         if (application.canOpenURL(phoneCallURL)) {

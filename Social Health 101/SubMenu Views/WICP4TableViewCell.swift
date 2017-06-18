@@ -15,7 +15,7 @@ class WICP4TableViewCell: UITableViewCell {
             UIApplication.shared.open(url as URL, options: [:])}
     }
     @IBAction func WICP4CallAction(_ sender: Any) {
-        if let phoneCallURL = URL(string: "telprompt://\(18005225006)") {
+        if let phoneCallURL = URL(string: "telprompt://\(18005225006 as Int64)") {
             
             let application:UIApplication = UIApplication.shared
             if (application.canOpenURL(phoneCallURL)) {

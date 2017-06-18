@@ -17,7 +17,7 @@ class LIADMP3TableViewCell: UITableViewCell {
 
     
     @IBAction func LIADMP3LinkAction1(_ sender: Any) {
-    if let phoneCallURL = URL(string: "telprompt://\(16316668833)") {
+    if let phoneCallURL = URL(string: "telprompt://\(16316668833 as Int64)") {
         
         let application:UIApplication = UIApplication.shared
         if (application.canOpenURL(phoneCallURL)) {

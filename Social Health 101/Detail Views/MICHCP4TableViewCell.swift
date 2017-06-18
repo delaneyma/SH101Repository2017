@@ -14,7 +14,7 @@ class MICHCP4TableViewCell: UITableViewCell {
 
     @IBAction func MICHCP4LinkAction(_ sender: Any) {
         
-        if let phoneCallURL = URL(string: "telprompt://\(16318544023)") {
+        if let phoneCallURL = URL(string: "telprompt://\(16318544023 as Int64)") {
             
             let application:UIApplication = UIApplication.shared
             if (application.canOpenURL(phoneCallURL)) {

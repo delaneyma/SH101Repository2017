@@ -11,7 +11,7 @@ import UIKit
 class MP5TableViewCell: UITableViewCell {
 
     @IBAction func MP5LinkAction(_ sender: Any) {
-    if let phoneCallURL = URL(string: "telprompt://\(16318522680)") {
+    if let phoneCallURL = URL(string: "telprompt://\(16318522680 as Int64)") {
         
         let application:UIApplication = UIApplication.shared
         if (application.canOpenURL(phoneCallURL)) {

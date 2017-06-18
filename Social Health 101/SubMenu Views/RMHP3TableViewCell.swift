@@ -12,7 +12,7 @@ class RMHP3TableViewCell: UITableViewCell {
 
     
     @IBAction func RMHP3LinkAction(_ sender: Any) {
-        if let phoneCallURL = URL(string: "telprompt://\(15167755683)") {
+        if let phoneCallURL = URL(string: "telprompt://\(15167755683 as Int64)") {
             
             let application:UIApplication = UIApplication.shared
             if (application.canOpenURL(phoneCallURL)) {

@@ -14,7 +14,7 @@ class AMHWP4TableViewCell: UITableViewCell {
     
     @IBAction func AMHWP4LinkAction(_ sender: Any) {
     
-    if let phoneCallURL = URL(string: "telprompt://\(16312263900)") {
+    if let phoneCallURL = URL(string: "telprompt://\(16312263900 as Int64)") {
         
         let application:UIApplication = UIApplication.shared
         if (application.canOpenURL(phoneCallURL)) {

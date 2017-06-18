@@ -13,7 +13,7 @@ class DHHP5TableViewCell: UITableViewCell {
     
     @IBAction func DHHP5LinkAction1(_ sender: Any) {
         
-        if let phoneCallURL = URL(string: "telprompt://\(15168765450)") {
+        if let phoneCallURL = URL(string: "telprompt://\(15168765450 as Int64)") {
             
             let application:UIApplication = UIApplication.shared
             if (application.canOpenURL(phoneCallURL)) {

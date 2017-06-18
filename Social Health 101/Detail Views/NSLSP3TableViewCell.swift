@@ -11,7 +11,7 @@ import UIKit
 class NSLSP3TableViewCell: UITableViewCell {
 
     @IBAction func NSLSP3LinkAction1(_ sender: Any) {
-        if let phoneCallURL = URL(string: "telprompt://\(15162928100)") {
+        if let phoneCallURL = URL(string: "telprompt://\(15162928100 as Int64)") {
             
             let application:UIApplication = UIApplication.shared
             if (application.canOpenURL(phoneCallURL)) {
@@ -20,7 +20,7 @@ class NSLSP3TableViewCell: UITableViewCell {
 
     
     @IBAction func NSLSP3LinkAction2(_ sender: Any) {
-        if let phoneCallURL = URL(string: "telprompt://\(16312322400)") {
+        if let phoneCallURL = URL(string: "telprompt://\(16312322400 as Int64)") {
             
             let application:UIApplication = UIApplication.shared
             if (application.canOpenURL(phoneCallURL)) {
@@ -30,7 +30,7 @@ class NSLSP3TableViewCell: UITableViewCell {
     
     
     @IBAction func NSLSP3LinkAction3(_ sender: Any) {
-        if let phoneCallURL = URL(string: "telprompt://\(16313691112)") {
+        if let phoneCallURL = URL(string: "telprompt://\(16313691112 as Int64)") {
             
             let application:UIApplication = UIApplication.shared
             if (application.canOpenURL(phoneCallURL)) {

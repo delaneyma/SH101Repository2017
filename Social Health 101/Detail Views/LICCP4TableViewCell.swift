@@ -15,7 +15,7 @@ class LICCP4TableViewCell: UITableViewCell {
     
     
     
-    if let phoneCallURL = URL(string: "telprompt://\(15168260244)") {
+    if let phoneCallURL = URL(string: "telprompt://\(15168260244 as Int64)") {
         
         let application:UIApplication = UIApplication.shared
         if (application.canOpenURL(phoneCallURL)) {

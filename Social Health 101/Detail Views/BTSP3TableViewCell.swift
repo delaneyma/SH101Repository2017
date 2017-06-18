@@ -14,7 +14,7 @@ class BTSP3TableViewCell: UITableViewCell {
     
     
     @IBAction func BTSP3LinkAction1(_ sender: Any) {
-        if let phoneCallURL = URL(string: "telprompt://\(16313951800)") {
+        if let phoneCallURL = URL(string: "telprompt://\(16313951800 as Int64)") {
             
             let application:UIApplication = UIApplication.shared
             if (application.canOpenURL(phoneCallURL)) {

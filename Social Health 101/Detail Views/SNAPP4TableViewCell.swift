@@ -15,7 +15,7 @@ class SNAPP4TableViewCell: UITableViewCell {
     
     @IBAction func SNAPP4LinkAction1(_ sender: Any) {
         
-        if let phoneCallURL = URL(string: "telprompt://\(18004323009)") {
+        if let phoneCallURL = URL(string: "telprompt://\(18004323009 as Int64)") {
             
             let application:UIApplication = UIApplication.shared
             if (application.canOpenURL(phoneCallURL)) {

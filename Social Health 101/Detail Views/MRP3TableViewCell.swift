@@ -16,7 +16,7 @@ class MRP3TableViewCell: UITableViewCell {
 
     
     @IBAction func MRP3LinkAction2(_ sender: Any) {
-        if let phoneCallURL = URL(string: "telprompt://\(16312312220)") {
+        if let phoneCallURL = URL(string: "telprompt://\(16312312220 as Int64)") {
             
             let application:UIApplication = UIApplication.shared
             if (application.canOpenURL(phoneCallURL)) {

@@ -12,7 +12,7 @@ class SCMHP3TableViewCell: UITableViewCell {
 
     
     @IBAction func SCMHP3LinkAction(_ sender: Any) {
-    if let phoneCallURL = URL(string: "telprompt://\(16318542552)") {
+    if let phoneCallURL = URL(string: "telprompt://\(16318542552 as Int64)") {
         
         let application:UIApplication = UIApplication.shared
         if (application.canOpenURL(phoneCallURL)) {

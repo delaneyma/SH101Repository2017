@@ -11,7 +11,7 @@ import UIKit
 class SCMHP2TableViewCell: UITableViewCell {
 
     @IBAction func SCMHP2LinkAction(_ sender: Any) {
-    if let phoneCallURL = URL(string: "telprompt://\(16318537300)") {
+    if let phoneCallURL = URL(string: "telprompt://\(16318537300 as Int64)") {
         
         let application:UIApplication = UIApplication.shared
         if (application.canOpenURL(phoneCallURL)) {

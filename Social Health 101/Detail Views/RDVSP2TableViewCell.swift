@@ -13,7 +13,7 @@ class RDVSP2TableViewCell: UITableViewCell {
     @IBOutlet weak var RDVSP2ContLabel: UILabel!
 
     @IBAction func RDVSP2LinkAction1(_ sender: Any) {
-        if let phoneCallURL = URL(string: "telprompt://\(16313292200)") {
+        if let phoneCallURL = URL(string: "telprompt://\(16313292200 as Int64)") {
             
             let application:UIApplication = UIApplication.shared
             if (application.canOpenURL(phoneCallURL)) {

@@ -13,7 +13,7 @@ class LICADDP6TableViewCell: UITableViewCell {
     
     
     @IBAction func LICADDP6LinkAction(_ sender: Any) {
-    if let phoneCallURL = URL(string: "telprompt://\(16312849583)") {
+    if let phoneCallURL = URL(string: "telprompt://\(16312849583 as Int64)") {
         
         let application:UIApplication = UIApplication.shared
         if (application.canOpenURL(phoneCallURL)) {

@@ -25,7 +25,7 @@ class ONAP4TableViewCell: UITableViewCell {
     
     @IBAction func ONAP4LinkAction2(_ sender: Any) {
     
-        if let phoneCallURL = URL(string: "telprompt://\(18005667636)") {
+        if let phoneCallURL = URL(string: "telprompt://\(18005667636 as Int64)") {
             
             let application:UIApplication = UIApplication.shared
             if (application.canOpenURL(phoneCallURL)) {

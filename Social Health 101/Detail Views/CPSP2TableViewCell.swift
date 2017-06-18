@@ -11,7 +11,7 @@ import UIKit
 class CPSP2TableViewCell: UITableViewCell {
     
     @IBAction func CPSP2LinkAction(_ sender: Any) {
-        if let phoneCallURL = URL(string: "telprompt://\(18003423720)") {
+        if let phoneCallURL = URL(string: "telprompt://\(18003423720 as Int64)") {
             
             let application:UIApplication = UIApplication.shared
             if (application.canOpenURL(phoneCallURL)) {

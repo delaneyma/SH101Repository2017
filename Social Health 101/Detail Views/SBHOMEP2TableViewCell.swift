@@ -26,7 +26,7 @@ class SBHOMEP2TableViewCell: UITableViewCell {
     
     @IBAction func SBHOMEP2LinkAction2(_ sender: Any) {
         
-        if let phoneCallURL = URL(string: "telprompt://\(16312355281)") {
+        if let phoneCallURL = URL(string: "telprompt://\(16312355281 as Int64)") {
             
             let application:UIApplication = UIApplication.shared
             if (application.canOpenURL(phoneCallURL)) {

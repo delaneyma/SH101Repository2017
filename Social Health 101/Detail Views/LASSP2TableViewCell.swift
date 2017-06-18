@@ -18,7 +18,7 @@ class LASSP2TableViewCell: UITableViewCell {
     
     
     @IBAction func LASSP2DCLinkAction1(_ sender: Any) {
-        if let phoneCallURL = URL(string: "telprompt://\(16318535212)") {
+        if let phoneCallURL = URL(string: "telprompt://\(16318535212  as Int64)") {
             
             let application:UIApplication = UIApplication.shared
             if (application.canOpenURL(phoneCallURL)) {
@@ -29,7 +29,7 @@ class LASSP2TableViewCell: UITableViewCell {
     
     
     @IBAction func LASSP2FCLinkAction2(_ sender: Any) {
-        if let phoneCallURL = URL(string: "telprompt://\(16318534343)") {
+        if let phoneCallURL = URL(string: "telprompt://\(16318534343 as Int64)") {
             
             let application:UIApplication = UIApplication.shared
             if (application.canOpenURL(phoneCallURL)) {
@@ -41,7 +41,7 @@ class LASSP2TableViewCell: UITableViewCell {
     
     
     @IBAction func LASSP2CCLinkAction3(_ sender: Any) {
-        if let phoneCallURL = URL(string: "telprompt://\(16314392450)") {
+        if let phoneCallURL = URL(string: "telprompt://\(16314392450 as Int64)") {
             
             let application:UIApplication = UIApplication.shared
             if (application.canOpenURL(phoneCallURL)) {

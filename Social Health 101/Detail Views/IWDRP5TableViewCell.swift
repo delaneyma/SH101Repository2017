@@ -11,7 +11,7 @@ import UIKit
 class IWDRP5TableViewCell: UITableViewCell {
 
     @IBAction func IWDRP5LinkAction(_ sender: Any) {
-        if let phoneCallURL = URL(string: "telprompt://\(16314778877)") {
+        if let phoneCallURL = URL(string: "telprompt://\(16314778877 as Int64)") {
             
             let application:UIApplication = UIApplication.shared
             if (application.canOpenURL(phoneCallURL)) {

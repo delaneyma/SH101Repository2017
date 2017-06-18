@@ -11,7 +11,7 @@ import UIKit
 class HEAPP9TableViewCell: UITableViewCell {
 
     @IBAction func HEAPP9(_ sender: Any) {
-        if let phoneCallURL = URL(string: "telprompt://\(16318538326)") {
+        if let phoneCallURL = URL(string: "telprompt://\(16318538326 as Int64)") {
             
             let application:UIApplication = UIApplication.shared
             if (application.canOpenURL(phoneCallURL)) {

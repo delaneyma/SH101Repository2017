@@ -13,7 +13,7 @@ class APSP2TableViewCell: UITableViewCell {
     
     @IBAction func APSP2LinkAction(_ sender: Any) {
     
-    if let phoneCallURL = URL(string: "telprompt://\(16318543195)") {
+    if let phoneCallURL = URL(string: "telprompt://\(16318543195 as Int64)") {
         
         let application:UIApplication = UIApplication.shared
         if (application.canOpenURL(phoneCallURL)) {

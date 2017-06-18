@@ -12,7 +12,7 @@ class HEAPP8TableViewCell: UITableViewCell {
 
     
     @IBAction func HEAPP8(_ sender: Any) {
-           if let phoneCallURL = URL(string: "telprompt://\(16318538825)") {
+           if let phoneCallURL = URL(string: "telprompt://\(16318538825 as Int64)") {
             
             let application:UIApplication = UIApplication.shared
             if (application.canOpenURL(phoneCallURL)) {

@@ -13,7 +13,7 @@ class NMP3TableViewCell: UITableViewCell {
    
     
     @IBAction func NMP3LinkAction2(_ sender: Any) {
-        if let phoneCallURL = URL(string: "telprompt://\(18005036897)") {
+        if let phoneCallURL = URL(string: "telprompt://\(18005036897  as Int64)") {
             
             let application:UIApplication = UIApplication.shared
             if (application.canOpenURL(phoneCallURL)) {

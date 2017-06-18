@@ -12,7 +12,7 @@ class TANFP2TableViewCell: UITableViewCell {
 
     @IBAction func TANFP2LinkAction(_ sender: Any) {
 
-    if let phoneCallURL = URL(string: "telprompt://\(16318549936)") {
+    if let phoneCallURL = URL(string: "telprompt://\(16318549936 as Int64)") {
         
         let application:UIApplication = UIApplication.shared
         if (application.canOpenURL(phoneCallURL)) {

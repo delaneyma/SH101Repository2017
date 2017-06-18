@@ -15,7 +15,7 @@ class PEP5TableViewCell: UITableViewCell {
     
     @IBAction func PEP5LinkAction1(_ sender: Any) {
         
-        if let phoneCallURL = URL(string: "telprompt://\(18002738255)") {
+        if let phoneCallURL = URL(string: "telprompt://\(18002738255 as Int64)") {
             
             let application:UIApplication = UIApplication.shared
             if (application.canOpenURL(phoneCallURL)) {

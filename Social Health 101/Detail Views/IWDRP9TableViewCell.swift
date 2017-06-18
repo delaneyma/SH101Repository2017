@@ -12,7 +12,7 @@ class IWDRP9TableViewCell: UITableViewCell {
 
     @IBAction func IWDRP9LinkAction(_ sender: Any) {
     
-        if let phoneCallURL = URL(string: "telprompt://\(16312881122)") {
+        if let phoneCallURL = URL(string: "telprompt://\(16312881122 as Int64)") {
             
             let application:UIApplication = UIApplication.shared
             if (application.canOpenURL(phoneCallURL)) {

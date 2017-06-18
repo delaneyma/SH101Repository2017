@@ -15,7 +15,7 @@ class PEP4TableViewCell: UITableViewCell {
     
     @IBAction func PEP4LinkAction(_ sender: Any) {
         
-        if let phoneCallURL = URL(string: "telprompt://\(16319523333)") {
+        if let phoneCallURL = URL(string: "telprompt://\(16319523333 as Int64)") {
             
             let application:UIApplication = UIApplication.shared
             if (application.canOpenURL(phoneCallURL)) {
